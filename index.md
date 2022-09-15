@@ -4,7 +4,7 @@
   <img src="./img/joker.png" width="120" height="142">
 </p>
 
- Home | [Project](project) | [Publications](publications) | [Partners](partners) | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [<img src="img/drapeaufr.png" width="20">](http://www.joker-project.com/clef-2022/FR/index)
+ Home | [Project](cpf) | [Publications](publications) | [Partners](partners) | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [<img src="img/drapeaufr.png" width="20">](http://www.joker-project.com/clef-2022/FR/index)
 <br>
 
 <h2 align="center">Interculturality and Localization of Humor and Puns</h2>
