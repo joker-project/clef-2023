@@ -40,12 +40,12 @@ https://doi.org/10.1007/978-3-030-99739-7_45
 <em>JokeR is supported by The Human Science Institute in Brittany (MSHB)</em>
 </p>
 <div align="center">
-  <a href="https://www.mshb.fr"><img src="../img/MSHB.jpg" height="120"></a>
-  <a href="https://sea-eu.org/?lang=fr"><img src="../img/SEA-EU.png" height="120"></a>
-  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="../img/Investissement avenir.jpeg" height="120"></a>
+  <a href="https://www.mshb.fr"><img src="img/mshb.jpg" height="120"></a>
+  <a href="https://sea-eu.org/?lang=fr"><img src="img/sea-eu.png" height="120"></a>
+  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="img/investissement-avenir.jpeg" height="120"></a>
 </div>
 <br />
 <div align="center">
-  <a href="https://clef2022.clef-initiative.eu/index.php"><img src="../img/CLEF2022.png" height="90"></a> 
+  <a href="https://clef2022.clef-initiative.eu/index.php"><img src="img/clef2022.png" height="90"></a> 
 </div>
 
