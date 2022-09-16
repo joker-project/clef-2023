@@ -3,7 +3,7 @@
   <img src="img/joker.png" width="120" height="142">
 </p>
 
-[Home](index) | [Project](project) | [Publications](publications) | Partners | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [<img src="../img/drapeau FR.png" width="20">](http://www.joker-project.com/clef-2022/FR/partenaires) 
+[Home](index) | [Project](project) | [Publications](publications) | Partners | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [<img src="img/drapeaufr.png" width="20">](http://www.joker-project.com/clef-2022/FR/partenaires) 
 <br>
 
 ## Organizers: 
