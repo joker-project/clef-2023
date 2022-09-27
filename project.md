@@ -6,232 +6,71 @@
 
 [Home](index) | CLEF  | [CLEF program](program)| [Publications](publications) | [Partners](partners) | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)
 <br>
-  <h1 align="center">CLEF Workshop:</h1>
-  <h2 align="center">Automatic Pun and Humour Translation</h2>
-
-## Call for Participation 
-
-### Context
-Humour remains one of the most difficult aspects of intercultural communication: understanding humour often requires understanding implicit cultural references and/or double meanings, and this raises the question of its (un)translatability. Wordplay is a common source of humour due to its attention-getting and subversive character. The translation of humour and wordplay is therefore in high demand. Modern translation depends heavily on technological aids, yet few works have treated the automation of humour and wordplay translation, or the creation of humour corpora. The goal of the JOKER workshop is to bring together translators and computer scientists to work on an evaluation framework for wordplay, including data and metric development, and to foster work on automatic methods for wordplay translation.
-### Tasks
-We invite you to submit both automatic and manual runs! Manual intervention should be reported.
-* Task 1: Сlassify and explain instances of wordplay.
-* Task 2: Translate single words containing wordplay.
-* Task 3: Translate entire phrases containing wordplay.
-* Unshared task: We welcome any other type of submission that uses our data as an open task.
-
-### Deadlines
-* Run submission: 22 April 2022 
-* Results available: 6 May 2022
-* Draft paper submission: 27 May 2022
-* Camera-ready submission: 1 July 2022
-* CLEF conference: 5–8 September 2022
-
-## Access
-Sign up at the CLEF website (https://clef2022-labs-registration.dei.unipd.it/). All team members should join the JOKER mailing list (https://groups.google.com/u/4/g/joker-project). After registration, you will receive an email with information on how to get access to the data.
-
-The data is split into 3 folders corresponding to the shared tasks. Each task folder is further split in train data and test data. 
-
-Meta-data will be available as the participants' results will be published.
-
-### Result submission:
-Participants should put their run results into the folder Documents created for their user and **submit them by email** to *contact@joker-project.com*.
-
-The email subject has to be in the format **\[CLEF TASK \<NUMBER\>\] TEAM_ID**. 
-
-Runs should be submitted as a <ins>ZIP folder of the corresponding JSON files</ins>. Manual runs are allowed to be submitted in a CSV format. 
-
-A confirmation email will be sent within 2 days after the submission deadline. 
-
-## Task 1: Сlassify and explain instances of wordplay.
-
-**Train data format:**
-List of classified wordplay instances in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `ID`: a unique wordplay identifier 
-* `WORDPLAY`: wordplay text
-* `LOCATION`: word(s) forming the wordplay, e.g. ambiguous words
-* `INTERPRETATION`: explanation of the wordplay
-* `HORIZONTAL/VERTICAL`: co-presence of source and target of the wordplay. In **horizontal** wordplay, both the source and the target of the wordplay are given (ex. 1: “They’re called <ins>lessons</ins> because they <ins>lessen</ins> from day to day”); in **vertical** wordplay, source and target are collapsed in a single occurrence (ex. 2: “How do you make a <ins>cat drink</ins>? Easy: put it in a liquidizer”)
-* `MANIPULATION_TYPE`:  **Identity** (source and target are formally identical, as in ex. 2 above); **Similarity** (as in ex. 1 above: source and target are not perfectly identical, but the resemblance is obvious); **Permutation** (the textual material is given a new order, as in anagrams or spoonerism. Ex. 3: “Dormitory = dirty room”); **Abbreviation** (an ad-hoc category for textual material where the initials form another meaning, as in acrostics or “funny” acronyms. Ex. 4: “BRAINS: Biobehavioral Research Awards for Innovative New Scientists”)
-* `MANIPULATION_LEVEL`: most wordplay involves some kind of phonological manipulation – that’s why **Sound** will be the default category. Examples 1 and 2 involve a clear sound similarity (ex. 1) or identity (ex. 2). Only if this category cannot be applied to the wordplay should you look for another level of manipulation.  First consider whether the manipulation involves **Writing** (as in ex. 3 and 4). If neither **Sound** nor **Writing** are manipulated, specify the level of manipulation as **Other**. This level of manipulation may arise, for instance, in chiasmuses (ex. 5: “We shape our buildings, and afterwards our buildings shape us”).	
-* `CULTURAL_REFERENCE`:  this is a binary (**True/False**) category. In order to understand some instances of wordplay, one has to be aware of some extra-linguistic factors	
-* `CONVENTIONAL_FORM`: this is a binary (**True/False**) category, e.g. *Tom Swifty* (wellerism), *Monsieur et Madame… ont un fils* 
-* `OFFENSIVE` (not evaluated category): some wordplay instances are marked as offensive. 
-
-*Example:*
-
-```
-[{"ID":"noun_1063","WORDPLAY":"Elimentaler","LOCATION":"Elimentaler","INTERPRETATION":"Emmental (cheese) + Eliminator","HORIZONTAL\/VERTICAL":"vertical","MANIPULATION_TYPE":"Similarity","MANIPULATION_LEVEL":"Sound","CULTURAL_REFERENCE":false,"CONVENTIONAL_FORM":false,"OFFENSIVE":null},{"ID":"pun_341","WORDPLAY":"Geologists can be sedimental about their work.","LOCATION":"sedimental","INTERPRETATION":"sentimental\/sediment","HORIZONTAL\/VERTICAL":"vertical","MANIPULATION_TYPE":"Similarity","MANIPULATION_LEVEL":"Sound","CULTURAL_REFERENCE":false,"CONVENTIONAL_FORM":false,"OFFENSIVE":null}]
-```
-
-**Test data input format:** 
-List of wordplay instances to classify in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `ID`: a unique wordplay identifier 
-* `WORDPLAY`: wordplay text
-
-*Input example:*
-
-```
-[{"ID":"noun_1","WORDPLAY":"Ambipom"},{"ID":"het_1011","WORDPLAY":"These are my parents, said Einstein relatively"}]
-```
-
-**Test data output format:** 
-
-List of wordplay instances to be classified in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `RUN_ID`: Run ID starting with **team_id_task_id_** (as registered at the CLEF website)
-* `MANUAL`: Whether the run is manual {0,1}
-* `ID`: a unique wordplay identifier from the input file 
-* `WORDPLAY`: wordplay text
-* `TARGET_WORD`: word(s) 
-* `DISAMBIGUATION`: explanation of the wordplay
-* `HORIZONTAL/VERTICAL`: co-presence of source and target of the wordplay (**horizontal/vertical**)
-* `MANIPULATION_TYPE`:  **Identity/Similarity/Permutation/Abbreviation** 
-* `MANIPULATION_LEVEL`: **Sound/Writing/Other**. 
-* `CULTURAL_REFERENCE`:  this is a binary (**True/False**) category. In order to understand some instances of wordplay, one has to be aware of some extra-linguistic factors	
-* `CONVENTIONAL_FORM`: this is a binary (**True/False**) category, e.g. *Tom Swifty* (wellerism), *Monsieur et Madame… ont un fils* 
-* `OFFENSIVE` (not evaluated category): some wordplay instances are marked as offensive. 
-
-*Output example*:
-
-```
-[{"RUN_ID":"RT_task_1_run1","MANUAL":1,"ID":"noun_1063","WORDPLAY":"Elimentaler","TARGET_WORD":"Elimentaler","DISAMBIGUATION":"Emmental (cheese) + Eliminator","HORIZONTAL\/VERTICAL":"vertical","MANIPULATION_TYPE":"Similarity","MANIPULATION_LEVEL":"Sound","CULTURAL_REFERENCE":false,"CONVENTIONAL_FORM":false,"OFFENSIVE":null},{"RUN_ID":"RT_task_1_run1","MANUAL":1,"ID":"pun_341","WORDPLAY":"Geologists can be sedimental about their work.","TARGET_WORD":"sedimental","DISAMBIGUATION":"sentimental\/sediment","HORIZONTAL\/VERTICAL":"vertical","MANIPULATION_TYPE":"Similarity","MANIPULATION_LEVEL":"Sound","CULTURAL_REFERENCE":false,"CONVENTIONAL_FORM":false,"OFFENSIVE":null}]
-```
-
-*Output format checker*
-
-You can use this python3 script to check the output format. The script requires Python 3 and the Pandas library:
-[Download python output checker](../check_format.py)
-
-**Evaluation.** Pilot Task 1 includes both classification and interpretation components. Classification performance will be evaluated with respect to accuracy, while interpretation performance will be evaluated semi-manually.
-
-**Result submission.** Participants should put their run results into the folder Documents created for their user and **submit them by email** to *contact@joker-project.com*. The email subject has to be in the format **\[CLEF TASK 1] TEAM_ID**. 
-
-## Task 2: Translate single words containing wordplay.
-
-**Train data format:**
-List of translated wordplay instances in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `id`: a unique wordplay identifier 
-* `en`: wordplay text in English (source)
-* `fr`: wordplay text in French (target) 
-
-*Example:*
-
-```
-[{"id":"noun_1","en":"Ambipom","fr":"Capidextre"}]
-```
-
-**Test data input format:** 
-List of wordplay instances to translate in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `id`: a unique wordplay identifier 
-* `en`: wordplay text in English (source)
-
-*Input example:*
-
-```
-[{"id":"noun_1185","en":"Fungun"}]
-```
-
-**Test data output format:** 
-
-List of wordplay instances to be translated in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `RUN_ID`: Run ID starting with **team_id_task_id_** (as registered at the CLEF website)
-* `MANUAL`: Whether the run is manual {0,1}
-* `id`: a unique wordplay identifier 
-* `en`: wordplay text in English (source)
-* `fr`: wordplay text in French (target) 
-
-*Output example*:
-
-```
-[{"RUN_ID":"OFFICIAL_task_2_run1","MANUAL":1,"id":"noun_1","en":"Ambipom","fr":"Capidextre"}]
-```
-
-*Output format checker*
-
-You can use this python3 script to check the output format. The script requires Python 3 and the Pandas library:
-[Download python output checker](../check_format.py)
-
-**Evaluation.** Human evaluators will manually annotate the submitted translations according to both subjective measures and according to more concrete features such as whether wordplay exists in the target text, whether it corresponds to the type used in the source text, whether the target text preserves the semantic field, etc.
-
-**Result submission.** Participants should put their run results into the folder Documents created for their user and **submit them by email** to *contact@joker-project.com*. The email subject has to be in the format **\[CLEF TASK 2] TEAM_ID**. 
-
-
-## Task 3: Translate entire phrases containing wordplay.
-
-**Train data format:**
-List of translated wordplay instances in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `id`: a unique wordplay identifier 
-* `en`: wordplay text in English (source)
-* `fr`: wordplay text in French (target) 
-
-*Example:*
-
-```
-[{"id":"pun_724_1","en":"My name is Wade and I'm in swimming pool maintenance.","fr":" Je m\u2019appelle Jacques Ouzy, je m\u2019occupe de l\u2019entretien des piscines."}]
-```
-
-**Test data input format:** 
-List of wordplay instances to translate in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `id`: a unique wordplay identifier 
-* `en`: wordplay text in English (source)
-
-*Input example:*
-
-```
-[{"id":"het_713","en":"Ever since my mineral extraction facility was converted to parking, I've had a lot on my mine."}]
-```
-
-**Test data output format:** 
-
-List of wordplay instances to be translated in a **JSON format** or a CSV file (for manual runs) with the following fields:
-* `RUN_ID`: Run ID starting with **team_id_task_id_** (as registered at the CLEF website)
-* `MANUAL`: Whether the run is manual {0,1}
-* `id`: a unique wordplay identifier 
-* `en`: wordplay text in English (source)
-* `fr`: wordplay text in French (target) 
-
-*Output example*:
-
-```
-[{"RUN_ID":"JCM_task_3_run1","MANUAL":1,"id":"pun_724_1","en":"My name is Wade and I'm in swimming pool maintenance.","fr":" Je m\u2019appelle Jacques Ouzy, je m\u2019occupe de l\u2019entretien des piscines."}]
-```
-
-*Output format checker*
-
-You can use this python3 script to check the output format. The script requires Python 3 and the Pandas library:
-[Download python output checker](../check_format.py)
-
-**Evaluation.** Human evaluators will manually annotate the submitted translations according to both subjective measures and according to more concrete features such as whether wordplay exists in the target text, whether it corresponds to the type used in the source text, whether the target text preserves the semantic field, etc.
-
-**Result submission.** Participants should put their run results into the folder Documents created for their user and **submit them by email** to *contact@joker-project.com*. The email subject has to be in the format **\[CLEF TASK 3] TEAM_ID**. 
-
-## Terms of Use
-
-By downloading and using JOKER data, you agree to the terms of use. Any use of the data for any purpose other than academic research, would be in violation of the intended use of these data. 
-
-Therefore, by downloading and using these data you give the following assurances with respect to the JOKER data:
-1. You will not use nor permit others to use the data in the JOKER datasets in any way except for classes and academic research.
-2. You will not at any time disclose, give, or transmit (in any manner or form or for any purpose) the data (or any portion thereof) to any location or person, including but not limiting to making the data available on the Internet, and copying the data onto any cloud-based storage system.
-3. You will not release nor permit others to release the dataset or any part of it to any person. 
-
-In case of violation of the conditions for access to the data for scientific purposes, this access may be withdrawn from the research entity and/or from the researcher. The research entity may also be liable to pay compensation for damages for third parties or asked to take disciplinary action against the offending researcher. 
-
-## How to Cite
-If you extend or use this work, please cite the [paper](https://link.springer.com/chapter/10.1007/978-3-031-13643-6_27) where it was introduced:
-```
-Liana Ermakova, Tristan Miller, Fabio Regattin, Anne-Gwenn Bosser, Claudine Borg, Élise Mathurin, Gaëlle Le Corre, 
-Sílvia Araújo, Radia Hannachi, Julien Boccou, Albin Digue, Aurianne Damoy & Benoît Jeanjean, 2022. 
-Overview of JOKER@ CLEF 2022: Automatic Wordplay and Humour Translation workshop. 
-In International Conference of the Cross-Language Evaluation Forum for European Languages (pp. 447-469). Springer, Cham.
-```
-[Paper](https://link.springer.com/chapter/10.1007/978-3-031-13643-6_27)
-
-[Dowload .BIB](./BibTex/joker-clef-2022.bib)
-
-[JOKER@CLEF presentation (pdf)](./JOKER_CLEF_2021.pdf)
-
-[1-st Call for Participation (pdf)](../1st Call JOKER 2022.pdf)
-
+  <h1 align="center">CLEF 2023 JOKER Track:</h1>
+  <h2 align="center">Automatic Wordplay Analysis</h2> 
+
+### 1. Topic and goals
+Humour remains one of the most difficult aspects of intercultural communication. Understanding humour often involves understanding implicit cultural references and/or double meanings, especially in the case of wordplay, which raises not only the question of its (un)translatability, but also how to detect and classify instances of this complex phenomenon. The goal of the JOKER track is to bring together linguists, translators, and computer scientists to create reusable test collections for benchmarking and to explore new evaluation metrics in order to foster work on automatic methods for wordplay interpretation, generation, and translation. Building on lessons learned from the 2022 edition detailed in section 6 of this proposal, we drop Task 2 (wordplay translation in named entities) and simplify Task 1 in order to provide three shared tasks which are more focused in matching the translation process: pun detection, interpretation, then translation. Differently from the state-of-the-art, we will also provide data in French for pun detection and interpretation. We will continue an unshared task with the aim of attracting runs with new use cases, e.g. pun generation or humour evaluation using our corpus. Additionally, we hope to be able to expand our corpus to several other languages.
+
+### 2. Relevance to CLEF and the significance for the field
+JOKER lies at the intersection of multiple fields, including natural language processing, machine translation (MT), and human-computer interaction, as well as linguistics, philosophy, and psychology. In the 2022 edition, we focused on machine translation and we constructed a unique English–French parallel corpus of wordplay with 5K parallel one-liner puns and 1.5K parallel instances of wordplay in named entities. We also saw runs based on our corpus for an unshared task for pun generation in order to improve interlocutor engagement in dialog systems. Recent developments in machine learning and artificial intelligence have greatly improved the quality of MT, but puns are often held to be untranslatable, particularly by statistical or neural MT [1], [2], which cannot robustly deal with texts that deliberately disregard or subvert linguistic conventions [3].
+<br>
+A few monolingual humour corpora do exist, including the datasets created for shared tasks of the International Workshop on Semantic Evaluation (SemEval): #HashtagWars: Learning a Sense of Humor [4], Detection and Interpretation of English Puns [3], Assessing Humor in Edited News Headlines [5], and Hackathon: Detecting and Rating Humor and Offense [6].  Mihalcea et al. [7] collected 16,000 humorous sentences and an equal number of negative samples from news titles, proverbs, the British National Corpus, and the Open Mind Common-Sense dataset. Another dataset contains 2,400 puns and non-puns from news sources, Yahoo!Answers, and proverbs [8], [9]. Most datasets are in English, with some notable exceptions in Italian [10], Russian [11], [12], and Spanish [13]. To the best of our knowledge, the corpus we constructed within the frame of the JOKER Task 3 [14], [15] is the first one for wordplay detection in French.
+
+### 3. Usage scenarios and domains of application
+Wordplay is a recurrent feature of literature, advertising, movies, and social conversations.  It is therefore vitally important that natural language processing applications operating on these discourse types be capable of recognising and appropriately dealing with instances of wordplay [14]. As we mentioned before, preserving wordplay in translation might be crucial to understanding the humorous aspect of a sense. Thus, machine translation of wordplay is especially crucial in subtitling. As we demonstrated previously [15], machine translation (including popular engines like DeepL) is successful in only 13% of cases. Although it is impossible to resolve such a complex problem at once, we identified three main steps that could bring us closer to the automation of wordplay analysis—namely, wordplay detection, interpretation, and translation. Wordplay detection and interpretation are also important in dialogue systems in order to allow a virtual agent to react properly on the cue of the interlocutor. 
+
+### 4. Tasks, evaluation setup, and metrics
+In this edition, we propose three shared tasks:
+* Pun detection in English and French. We will use the corpora which were a side result of JOKER-2022 [15] and the augmented data of SemEval-2017 [16] as well as standard evaluation metrics for binary classification (precision, recall, accuracy)
+* Pun location and interpretation in English and French. We will use the extended corpus of JOKER-2022 Task 1. We will evaluate location based on the accuracy and the interpretation based on paronyms and synonyms.
+* Pun translation from English to French. We will use the extended version of the corpus of JOKER-2022 Task 3 and we will continue to evaluate the generated translation manually. 
+As in 2022, we will run translation contests (eventually into other languages than French—e.g., Spanish, Maltese, and Portuguese) to have more parallel data and we will hire interns in translation to annotate them. We will also extend our corpus with wordplay from literature (e.g. Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter) and from video games. We will use untranslated data for the test data in order to enrich our corpus for the future editions. 
+We will also welcome unshared runs (pun generation, humour perception, etc.). Further details will be discussed during the break-out session at CLEF-2022. Note that, while our previous JOKER track proved to be very challenging (only 13% of evaluated translations being successful), the larger data set and new evaluation metrics could alleviate this in this round.
+ 
+
+### 5. Details on the lab organisers and their responsibilities
+<u>**Chair</u>: Liana Ermakova**, associate professor in computer science at University of Western Brittany, France. L. Ermakova was the chair of the JOKER@CLEF-2022 track, SimpleText@CLEF’21 and ‘22. She also participated in the INEX/CLEF Tweet Contextualization task in 2011-2014 and was one of the organisers of CLEF Microblog Cultural Contextualization in 2016 and 2017. 
+**Tristan Miller** (Austrian Research Institute for Artificial Intelligence, Austria), JOKER’22 co-organiser, is working on computational detection and interpretation of humour and leads the Computational Pun-derstanding: Computer-Assisted Translation (CAT) of Humorous Wordplay project. He co-organized SemEval-2017 shared task on the computational detection and interpretation of puns [16], the SemEval-2021 shared task on learning from disagreements, and numerous panels on computational humour at the International Society for Humor Studies Conference. [URL](https://logological.org/)
+**Anne-Gwenn Bosser**, associate professor at the ENIB (France), participated in the organisation of the JOKER track in 2022. She co-chaired the International Conference in Interactive Digital Storytelling in 2020. A.-G. Bosser and L. Ermakova are members of the competition events section in the French Association for Artificial Intelligence which reused the JOKER’22 data for a Jam on Humorous Text Generation during the conference French Platform for IA (PFIA’22). [URL](https://labsticc.fr/en/directory/bosser-anne-gwenn)
+**Adam Jatowt**, Full Professor at Department of Computer Science & Digital Science Center University of Innsbruck (Austria), has worked as a researcher at Kyoto University from 2006 to 2020. He has organised multiple scientific events, including three shared tasks at NTCIR in Japan in 2011, 2012, and 2013. [URL](https://adammo12.github.io/adamjatowt/)   
+**Victor Manuel Palma Preciado**, PhD student in computer science at Instituto Politécnico Nacional (Mexico) and University of Western Brittany (France), works on Deep Learning methods for automatic humour analysis under the supervision of Grigori Sidorov and Liana Ermakova. He participated in the JOKER track in 2022.
+**Grigori Sidorov**, Full Professor at Instituto Politécnico Nacional (Mexico), works in NLP and AI and organised various shared tasks, including UrduThreat@FIRE2021. The teams supervised by G. Sidorov participated in CheckThat!-2021, EXIST2021, PAN-2014, 2017, RUSProfiling-2017, SemEval-2016,  INLI2018 (Indian Native Language Identification), LT-EDI-ACL2022, etc.
+Data collection in French will be primarily ensured by L. Ermakova and her students. A.-G. Bosser will be responsible for the unshared task. V. Preciado  will work on the automation of the corpus construction. V. Preciado and G. Sidorov will work on pilot data in Spanish. All main lab organisers will work on the evaluation framework, its automation and lab advertising with local communities. 
+**Other colleagues.** In this new edition of the workshop, we restrict the core organising committee to computer scientists. However, the project involves colleagues from humanities who help with data collection (mainly organisation of human translation contests—chair L. Ermakova) who participated in JOKER-2022 (Fabio Regattin, Claudine Borg, Sílvia Araújo, Radia Hannachi, Élise Mathurin, Mohamed Saki, Benoît Jeanjean, Gaëlle Le Corre, Monika Bokiniec, Gordan Matas). New members (Nathalie Narvaez, Leopoldo Gutierrez, Khatima El Krirh, and Rachel Kinlay of the University of Cadiz, Spain) could help with eventual data collection in Spanish. We will also hire interns in translation to create new data and evaluate the runs.
+
+### 6. Statistics and lessons learnt
+Forty-nine teams registered in 2022. Forty-two users downloaded the data from the server and seven submitted a total of 19 official runs for shared tasks (nine for Task 1: classification and interpretation, four for Task 2: wordplay translation in named entities, and six for Task 3: pun translation). One run was submitted after the deadline for Task 1. Two runs were submitted for the unshared task as well as new classifications proposed by participants. We decided to stop the classification task as the classification we used was not expressive enough due to the corpus construction decisions. We will keep only location and interpretation for the reasons that (1) Task 1 interested a lot of participants, (2) location and interpretation tasks are challenging problems (a few participants were somehow successful), and (3) they are important for downstream processing tasks such as translation. (We found, for example, that even professional translators found it useful to have location and interpretation annotation to evaluate the translations.) We will drop JOKER-2022’s Task 2 as, on the one hand, we did not see variations in the approaches, and on the other hand, the low success rate might be due to a lack of context that is too expensive for us to source. Task 3 allowed us to construct a new homogeneous corpus for pun detection, reducing the limitations of the corpora in the state of the art [15]. This corpus was reused by the French Association for Artificial Intelligence to organise a jam on wordplay generation in French. Thus, in 2023, we will stick to an obvious pipeline useful for pun translation—namely, pun detection, then interpretation, then translation itself. 
+
+### 7. Details of the expected target audience
+The  target audience are students and researchers in IR and NLP, but the track is also open for researchers in other domains, including translation. (Several translators and language teachers contacted the lab organisers to have access to the corpus.) The corpus attracted the attention of the [SEA-EU Alliance](https://sea-eu.org/) (from which renewed funding was obtained for 2022–2023) and was used in a class on AI (from which two teams submitted runs). The JOKER organisers were contacted to give another intensive course open for students from the University of Cádiz (Spain), the Université de Bretagne Occidentale in Brest (France), the University of Kiel (Germany), the University of Gdańsk (Poland), the University of Split (Croatia), the University of Malta (Malta), the University of Naples-Parthenope (Italy), the University of Algarve (Portugal), and Nord University (Norway). We will also propose JOKER tasks as projects within the class on AI in the Engineering School in Brest (France). Track organisers from different countries will encourage local communities (in France, Mexico, Poland, Spain, Japan, etc.) to participate in the shared tasks. 
+We will disseminate calls and other information about the tasks via the communication service in UBO, the JOKER Google group, various mailing lists (SIGIR, info-ic, madics, clef, ntcir, bulle-i3, bull-ia, ln, nlp-seminar, romip, TRANSLATIO@jiscmail.ac.uk, organisers’ university mailing lists), social networks, organisers’ personal pages, the JOKER project network, and the network of Maison des sciences de l'homme en Bretagne (funding in 2022–2023), as appropriate. We will also advertise the track at CLEF 2022 and ECIR 2023 and other conferences, workshops and local events, including AFIA (French Association for Artificial Intelligence) events. 
+
+### 8. Expected length of the lab session at the conference: half-day
+* 45 min invited talk + 15 min for questions
+* 1h round table
+* 2h30 for presentations (~10 presentations of 15 min)
+
+### 9. Acknowledgement
+This project has received a government grant managed by the National Research Agency under the program "Investissements d'avenir" with the Reference ANR-19-GURE-0001. JOKER is supported by La Maison des sciences de l’homme en Bretagne.
+
+### 10. References
+[^1]	H. Ardi, M. A. Hafizh, I. Rezqi, and R. Tuzzikriah, “Can Machine Translations Translate Humorous Texts?”, Humanus, 2022, doi: 10.24036/humanus.v21i1.115698.
+[^2]	F. Regattin, "Traduction automatique et jeux de mots : l’incursion (ludique) d’un inculte". Brest, Université de Bretagne occidentale, mars 2021. [URL](https://motsmachines.github.io/2021/en/submissions/Mots-Machines-2021_paper_5.pdf)
+[^3]	T. Miller, "The Punster’s Amanuensis: The Proper Place of Humans and Machines in the Translation of Wordplay", in Proceedings of the Second Workshop on Human-Informed Translation and Interpreting Technology (HiT-IT 2019), sept. 2019, p. 57‑64. doi: 10.26615/issn.2683-0078.2019_007.
+[^4]	P. Potash, A. Romanov, and A. Rumshisky, " SemEval-2017 Task 6: #HashtagWars: Learning a Sense of Humor ", in Proceedings of the 11th International Workshop on Semantic Evaluation, août 2017, p. 49‑57. doi: 10.18653/v1/S17-2004.
+[^5]	N. Hossain, J. Krumm, M. Gamon, and H. Kautz, " SemEval-2020 Task 7: Assessing Humor in Edited News Headlines ", in Proceedings of the Fourteenth Workshop on Semantic Evaluation, déc. 2020, p. 746‑758. [En ligne]. Disponible sur: [https://aclanthology.org/2020.semeval-1.98](https://aclanthology.org/2020.semeval-1.98)
+[^6]	J. A. Meaney, S. Wilson, L. Chiruzzo, A. Lopez, and W. Magdy, " SemEval-2021 Task 7: HaHackathon, Detecting and Rating Humor and Offense ", in Proceedings of the 15th International Workshop on Semantic Evaluation, août 2021, p. 105‑119. doi: 10.18653/v1/2021.semeval-1.9.
+[^7]	R. Mihalcea and C. Strapparava, " Making Computers Laugh: Investigations in Automatic Humor Recognition ", in Proceedings of Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing, Vancouver, British Columbia, Canada, oct. 2005, p. 531‑538. [En ligne]. Disponible sur: [https://www.aclweb.org/anthology/H05-1067](https://www.aclweb.org/anthology/H05-1067)
+[^8]	A. Cattle and X. Ma, " Recognizing Humour using Word Associations and Humour Anchor Extraction ", in Proceedings of the 27th International Conference on Computational Linguistics, Santa Fe, New Mexico, USA, août 2018, p. 1849‑1858. [En ligne]. Disponible sur: [https://www.aclweb.org/anthology/C18-1157](https://www.aclweb.org/anthology/C18-1157)
+[^9]	D. Yang, A. Lavie, C. Dyer, and E. Hovy, " Humor Recognition and Humor Anchor Extraction ", in Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, Lisbon, Portugal, sept. 2015, p. 2367‑2376. doi: 10.18653/v1/D15-1284.
+[^10]	A. Reyes, D. Buscaldi, and P. Rosso, " An Analysis of the Impact of Ambiguity on Automatic Humour Recognition ", in Text, Speech and Dialogue, Berlin, Heidelberg, 2009, p. 162‑169. doi: 10.1007/978-3-642-04208-9_25.
+[^11]	V. Blinov, V. Bolotova-Baranova, and P. Braslavski, "Large Dataset and Language Model Fun-Tuning for Humor Recognition", in Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, Florence, Italy, 2019, p. 4027‑4032. doi: 10.18653/v1/P19-1394.
+[^12]	A. Ermilov, N. Murashkina, V. Goryacheva, and P. Braslavski, "Stierlitz Meets SVM: Humor Detection in Russian", in Artificial Intelligence and Natural Language, Cham, 2018, p. 178‑184. doi: 10.1007/978-3-030-01204-5_17.
+[^13]	S. Castro, L. Chiruzzo, A. Rosá, D. Garat, and G. Moncecchi, "A Crowd-Annotated Spanish Corpus for Humor Analysis", in Proceedings of the Sixth International Workshop on Natural Language Processing for Social Media, Melbourne, Australia, juill. 2018, p. 7‑11. doi: 10.18653/v1/W18-3502.
+[^14]	L. Ermakova et. al., "CLEF Workshop JOKER: Automatic Wordplay and Humour Translation", in Advances in Information Retrieval, vol. 13186, M. Hagen, S. Verberne, C. Macdonald, C. Seifert, K. Balog, K. Nørvåg, et V. Setty, Éd. Cham: Springer International Publishing, 2022, p. 355‑363. doi: 10.1007/978-3-030-99739-7_45.
+[^15]	L. Ermakova et al., "Overview of the CLEF 2022 JOKER Task 3: Pun Translation from English into French", in Proceedings of the Working Notes of CLEF 2022: Conference and Labs of the Evaluation Forum, 2022.
+[^16]	T. Miller, C. Hempelmann, and I. Gurevych, "SemEval-2017 Task 7: Detection and Interpretation of English Puns", in Proceedings of the 11th International Workshop on Semantic Evaluation           (SemEval-2017), Vancouver, Canada, 2017, p. 58‑68. doi: 10.18653/v1/S17-2005.
   
 <p>
 <em>This project has received a government grant managed by the National Research Agency under the program "Investissements d'avenir" with the Reference ANR-19-GURE-0001</em>
