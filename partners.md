@@ -65,7 +65,7 @@
 <br>[Link to profile](https://logological.org/) 
 <br>*Participant*
 
-## Partners from the SEA-EU universities: <img align="right" width="150" height="150" src="../img/SEA-EU.png">
+## Partners from the SEA-EU universities: <img align="right" width="150" height="150" src="../img/sea-eu.png">
 
 * **Ġorġ Mallia (University of Malta)**
 <br>Associate Professor
