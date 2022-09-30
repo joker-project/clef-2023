@@ -13,33 +13,14 @@
 <br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Ermakova--Liana)
 <br>*Project Leader*
 
-* **Benoît Jeanjean (UBO)**
-<br>Latin Professor
-<br>HCTI EA-4249, Department of Humanities and Social Sciences
-<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Jeanjean__Benoit)
+* **Tristan Miller (Austrian Research Institute for Artificial Intelligence, Austria)**
+<br>Language and Interaction Technologies Group at OFAI
+<br>[Link to profile](https://logological.org/) 
 <br>*Participant*
 
-* **Gaëlle Le Corre (UBO)** 
-<br>English Linguistics Lecturer
-<br>EA 4451 CRBC, UFR ALL SHS, Department of English
-<br>[Link to profile](https://www.univ-brest.fr/crbc/menu/Membres+du+laboratoire/Enseignants-chercheurs/Ga-lle-Le-Corre)
-<br>*Participant*
-
-* **Élise Mathurin (UBO)**
-<br>English Linguistics Lecturer, in charge of the first-year students of the Technical Writing/Technical Translation master's degree.
-<br>HCTI EA-4249, UFR ALL SHS, Department of English
-<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Mathurin--Elise)
-<br>*Participant*
-
-* **Mohamed Saki (UBO)**
-<br>English Linguistics Lecturer
-<br>HCTI EA-4249, Department of Humanities and Social Sciences
-<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Saki--Mohamed)
-<br>*Participant*
-
-* **Radia Hannachi (UBS)** 
-<br>French Linguistics and French as a Foreign Language Didactics Lecturer
-<br>HCTI EA-4249, Faculty of Arts, Humanities and Social Sciences, "Département Ingénierie du Document"
+* **Adam Jatowt (University of Innsbruck, Austria)**
+<br>Full Professor at Department of Computer Science & Digital Science Center
+<br>[Link to profile](https://adammo12.github.io/adamjatowt/)
 <br>*Participant*
 
 * **Anne-Gwenn Bosser (ENIB)**
@@ -48,22 +29,17 @@
 <br>[Link to profile](https://labsticc.fr/en/directory/bosser-anne-gwenn)
 <br>*Participant*
 
-* **Sílvia Araújo (University of Minho, Portugal)**
-<br>Associate Professor in Corpus Linguistics, Technologies Applied to Languages and Digital Humanities
-<br>Department of Humanities and Social Sciences
-<br>[Link to profile](http://cehum.ilch.uminho.pt/researchers/25)
+* **Victor Manuel Palma Preciado (Instituto Politécnico Nacional, Mexico and UBO)**
+<br>PhD student in computer science
 <br>*Participant*
 
-* **Fabio Regattin (Università degli Studi di Udine, Italy)** 
-<br>Associate Professor in French to Italian Translation
-<br>Department of Language and Literature, Communication, Education and Society
-<br>[Link to profile](https://people.uniud.it/page/fabio.regattin)
+* **Grigori Sidorov (Instituto Politécnico Nacional, Mexico)**
+<br>Full Professor
+<br>[Link to profile](https://www.cic.ipn.mx/~sidorov/)
 <br>*Participant*
 
-* **Tristan Miller (Austrian Research Institute for Artificial Intelligence, Austria)**
-<br>Language and Interaction Technologies Group at OFAI
-<br>[Link to profile](https://logological.org/) 
-<br>*Participant*
+## Other organizers: 
+In this new edition of the workshop, we restrict the core organising committee to computer scientists. However, the project involves colleagues from humanities who help with data collection (mainly organisation of human translation contests—chair L. Ermakova) who participated in JOKER-2022 (Fabio Regattin, Claudine Borg, Sílvia Araújo, Radia Hannachi, Élise Mathurin, Mohamed Saki, Benoît Jeanjean, Gaëlle Le Corre, Monika Bokiniec, Gordan Matas). New members (Nathalie Narvaez, Leopoldo Gutierrez, Khatima El Krirh, and Rachel Kinlay of the University of Cadiz, Spain) could help with eventual data collection in Spanish. We will also hire interns in translation to create new data and evaluate the runs.
 
 ## Partners from the SEA-EU universities: <img align="right" width="150" height="150" src="img/sea-eu.png">
 
