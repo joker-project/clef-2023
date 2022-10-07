@@ -4,7 +4,7 @@
   <img src="./img/joker.png" width="120" height="142">
 </p>
 
- Home | [CLEF program](program) | [Publications](publications) | [Partners](partners) | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)
+ Home | [Tasks] (tasks.md) | [CLEF program](program) | [Publications](publications) | [Partners](partners) | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)
 <br>
 
 <br>
