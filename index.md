@@ -33,18 +33,6 @@ In this edition, we propose three shared tasks:
 As in 2022, we will run translation contests (eventually into other languages than French—e.g., Spanish, Maltese, and Portuguese) to have more parallel data and we will hire interns in translation to annotate them. We will also extend our corpus with wordplay from literature (e.g. Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter) and from video games. We will use untranslated data for the test data in order to enrich our corpus for the future editions. 
 We will also welcome unshared runs (pun generation, humour perception, etc.). Further details will be discussed during the break-out session at CLEF-2022. Note that, while our previous JOKER track proved to be very challenging (only 13% of evaluated translations being successful), the larger data set and new evaluation metrics could alleviate this in this round.
 
-### Statistics and lessons learnt
-Forty-nine teams registered in 2022. Forty-two users downloaded the data from the server and seven submitted a total of 19 official runs for shared tasks (nine for Task 1: classification and interpretation, four for Task 2: wordplay translation in named entities, and six for Task 3: pun translation). One run was submitted after the deadline for Task 1. Two runs were submitted for the unshared task as well as new classifications proposed by participants. We decided to stop the classification task as the classification we used was not expressive enough due to the corpus construction decisions. We will keep only location and interpretation for the reasons that (1) Task 1 interested a lot of participants, (2) location and interpretation tasks are challenging problems (a few participants were somehow successful), and (3) they are important for downstream processing tasks such as translation. (We found, for example, that even professional translators found it useful to have location and interpretation annotation to evaluate the translations.) We will drop JOKER-2022’s Task 2 as, on the one hand, we did not see variations in the approaches, and on the other hand, the low success rate might be due to a lack of context that is too expensive for us to source. Task 3 allowed us to construct a new homogeneous corpus for pun detection, reducing the limitations of the corpora in the state of the art [15]. This corpus was reused by the French Association for Artificial Intelligence to organise a jam on wordplay generation in French. Thus, in 2023, we will stick to an obvious pipeline useful for pun translation—namely, pun detection, then interpretation, then translation itself. 
-
-### Details of the expected target audience
-The  target audience are students and researchers in IR and NLP, but the track is also open for researchers in other domains, including translation. (Several translators and language teachers contacted the lab organisers to have access to the corpus.) The corpus attracted the attention of the [SEA-EU Alliance](https://sea-eu.org/) (from which renewed funding was obtained for 2022–2023) and was used in a class on AI (from which two teams submitted runs). The JOKER organisers were contacted to give another intensive course open for students from the University of Cádiz (Spain), the Université de Bretagne Occidentale in Brest (France), the University of Kiel (Germany), the University of Gdańsk (Poland), the University of Split (Croatia), the University of Malta (Malta), the University of Naples-Parthenope (Italy), the University of Algarve (Portugal), and Nord University (Norway). We will also propose JOKER tasks as projects within the class on AI in the Engineering School in Brest (France). Track organisers from different countries will encourage local communities (in France, Mexico, Poland, Spain, Japan, etc.) to participate in the shared tasks. 
-We will disseminate calls and other information about the tasks via the communication service in UBO, the JOKER Google group, various mailing lists (SIGIR, info-ic, madics, clef, ntcir, bulle-i3, bull-ia, ln, nlp-seminar, romip, TRANSLATIO@jiscmail.ac.uk, organisers’ university mailing lists), social networks, organisers’ personal pages, the JOKER project network, and the network of Maison des sciences de l'homme en Bretagne (funding in 2022–2023), as appropriate. We will also advertise the track at CLEF 2022 and ECIR 2023 and other conferences, workshops and local events, including AFIA (French Association for Artificial Intelligence) events. 
-
-### Expected length of the lab session at the conference: half-day
-* 45 min invited talk + 15 min for questions
-* 1h round table
-* 2h30 for presentations (~10 presentations of 15 min)
-
 ### References
 [1]	H. Ardi, M. A. Hafizh, I. Rezqi, and R. Tuzzikriah, “Can Machine Translations Translate Humorous Texts?”, Humanus, 2022, doi: 10.24036/humanus.v21i1.115698.<br>
 [2]	F. Regattin, "Traduction automatique et jeux de mots : l’incursion (ludique) d’un inculte". Brest, Université de Bretagne occidentale, mars 2021. [URL](https://motsmachines.github.io/2021/en/submissions/Mots-Machines-2021_paper_5.pdf)<br>
@@ -81,7 +69,7 @@ https://doi.org/10.1007/978-3-030-99739-7_45
 
 
 <p>
-<em>This project has received a government grant managed by the National Research Agency under the program "Investissements d'avenir" with the Reference ANR-19-GURE-0001</em>
+<em>This project has received a government grant managed by the National Research Agency under the program "Investissements d'avenir" integrated into France 2030, with the Reference ANR-19-GURE-0001.</em>
 </p>
 <p>
 <em>JokeR is supported by The Human Science Institute in Brittany (MSHB)</em>
@@ -89,7 +77,7 @@ https://doi.org/10.1007/978-3-030-99739-7_45
 <div align="center">
   <a href="https://www.mshb.fr"><img src="img/mshb.jpg" height="120"></a>
   <a href="https://sea-eu.org/?lang=fr"><img src="img/sea-eu.png" height="120"></a>
-  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="img/investissement-avenir.jpeg" height="120"></a>
+  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="img/Logotype France 2030.jpg" height="120"></a>
 </div>
 <br />
 <div align="center">
