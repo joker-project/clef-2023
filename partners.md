@@ -39,7 +39,55 @@
 <br>*Participant*
 
 ## Other organizers: 
-In this new edition of the workshop, we restrict the core organising committee to computer scientists. However, the project involves colleagues from humanities who help with data collection (mainly organisation of human translation contests—chair L. Ermakova) who participated in JOKER-2022 (Fabio Regattin, Claudine Borg, Sílvia Araújo, Radia Hannachi, Élise Mathurin, Mohamed Saki, Benoît Jeanjean, Gaëlle Le Corre, Monika Bokiniec, Gordan Matas). New members (Nathalie Narvaez, Leopoldo Gutierrez, Khatima El Krirh, and Rachel Kinlay of the University of Cadiz, Spain) could help with eventual data collection in Spanish. We will also hire interns in translation to create new data and evaluate the runs.
+In this new edition of the workshop, we restrict the core organising committee to computer scientists. However, the project involves colleagues from humanities who help with data collection (mainly organisation of human translation contests—chair L. Ermakova) who participated in JOKER-2022 
+
+* **Fabio Regattin (Università degli Studi di Udine, Italy)**
+<br>Associate Professor in French to Italian Translation
+<br>Department of Language and Literature, Communication, Education and Society
+<br>[Link to profile](https://people.uniud.it/page/fabio.regattin)
+<br>*Participant*
+
+* **Sílvia Araújo (University of Minho, Portugal)**
+<br>Associate Professor in Corpus Linguistics, Technologies Applied to Languages and Digital Humanities
+<br>Department of Humanities and Social Sciences
+<br>[Link to profile](http://cehum.ilch.uminho.pt/researchers/25)
+<br>*Participant*
+
+* **Radia Hannachi (UBS)**
+<br>French Linguistics and French as a Foreign Language Didactics Lecturer
+<br>HCTI EA-4249, Faculty of Arts, Humanities and Social Sciences, “Département Ingénierie du Document”
+<br>*Participant*
+
+* **Élise Mathurin (UBO)**
+<br>English Linguistics Lecturer, in charge of the first-year students of the Technical Writing/Technical Translation master’s degree.
+<br>HCTI EA-4249, UFR ALL SHS, Department of English
+<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Mathurin--Elise)
+<br>*Participant*
+
+* **Mohamed Saki (UBO)**
+<br>English Linguistics Lecturer
+<br>HCTI EA-4249, Department of Humanities and Social Sciences
+<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Saki--Mohamed)
+<br>*Participant*
+
+* **Benoît Jeanjean (UBO)**
+<br>Latin Professor
+<br>HCTI EA-4249, Department of Humanities and Social Sciences
+<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Jeanjean__Benoit)
+<br>*Participant*
+
+* **Gaëlle Le Corre (UBO)**
+<br>English Linguistics Lecturer
+<br>EA 4451 CRBC, UFR ALL SHS, Department of English
+<br>[Link to profile](https://www.univ-brest.fr/crbc/menu/Membres+du+laboratoire/Enseignants-chercheurs/Ga-lle-Le-Corre)
+<br>*Participant*
+
+New members could help with eventual data collection in Spanish.
+
+* **Nathalie Narvaez, Leopoldo Gutierrez, Khatima El Krirh, and Rachel Kinlay**
+<br>University of Cadiz, Spain
+
+We will also hire interns in translation to create new data and evaluate the runs.
 
 ## Partners from the SEA-EU universities: <img align="right" width="150" height="150" src="img/sea-eu.png">
 
@@ -66,7 +114,6 @@ In this new edition of the workshop, we restrict the core organising committee t
 <br>Department of Language and English Literature
 <br>[Link to profile](https://www.ffst.unist.hr/gordan.matas)
 <br>*Partner university coordinator*
-
 
 * **Danica Škara (University of Split)**
 <br>Professor Emeritus
