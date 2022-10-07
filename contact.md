@@ -26,7 +26,7 @@
 <div align="center">
   <a href="https://www.mshb.fr"><img src="img/mshb.jpg" height="120"></a>
   <a href="https://sea-eu.org/?lang=fr"><img src="img/sea-eu.png" height="120"></a>
-  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="img/investissement-avenir.jpeg" height="120"></a>
+  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="img/Logotype France 2030.jpg" height="120"></a>
 </div>
 <br />
 <div align="center">
