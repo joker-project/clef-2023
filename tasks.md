@@ -10,6 +10,7 @@
   <h1 align="center">CLEF 2023 JOKER Track:</h1>
   <h2 align="center">Automatic Wordplay Analysis</h2> 
 
+
 ### Tasks, evaluation setup, and metrics
 In the edition, we propose three shared tasks:
 * Pun detection in English and French. We will use the corpora which were a side result of JOKER-2022 [1] and the augmented data of SemEval-2017 [2] as well as standard evaluation metrics for binary classification (precision, recall, accuracy)
