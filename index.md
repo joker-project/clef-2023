@@ -24,15 +24,6 @@ A few monolingual humour corpora do exist, including the datasets created for sh
 Wordplay is a recurrent feature of literature, advertising, movies, and social conversations.  It is therefore vitally important that natural language processing applications operating on these discourse types be capable of recognising and appropriately dealing with instances of wordplay [14]. As we mentioned before, preserving wordplay in translation might be crucial to understanding the humorous aspect of a sense. Thus, machine translation of wordplay is especially crucial in subtitling. As we demonstrated previously [15], machine translation (including popular engines like DeepL<a href="#note1" id="note1ref"><sup>1</sup></a>) is successful in only 13% of cases. Although it is impossible to resolve such a complex problem at once, we identified three main steps that could bring us closer to the automation of wordplay analysis—namely, wordplay detection, interpretation, and translation. Wordplay detection and interpretation are also important in dialogue systems in order to allow a virtual agent to react properly on the cue of the interlocutor. 
 <br>
 
-
-### Tasks, evaluation setup, and metrics
-In this edition, we propose three shared tasks:
-* Pun detection in English and French. We will use the corpora which were a side result of JOKER-2022 [15] and the augmented data of SemEval-2017 [16] as well as standard evaluation metrics for binary classification (precision, recall, accuracy)
-* Pun location and interpretation in English and French. We will use the extended corpus of JOKER-2022 Task 1. We will evaluate location based on the accuracy and the interpretation based on paronyms and synonyms.
-* Pun translation from English to French. We will use the extended version of the corpus of JOKER-2022 Task 3 and we will continue to evaluate the generated translation manually. 
-As in 2022, we will run translation contests (eventually into other languages than French—e.g., Spanish, Maltese, and Portuguese) to have more parallel data and we will hire interns in translation to annotate them. We will also extend our corpus with wordplay from literature (e.g. Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter) and from video games. We will use untranslated data for the test data in order to enrich our corpus for the future editions. 
-We will also welcome unshared runs (pun generation, humour perception, etc.). Further details will be discussed during the break-out session at CLEF-2022. Note that, while our previous JOKER track proved to be very challenging (only 13% of evaluated translations being successful), the larger data set and new evaluation metrics could alleviate this in this round.
-
 ### References
 [1]	H. Ardi, M. A. Hafizh, I. Rezqi, and R. Tuzzikriah, “Can Machine Translations Translate Humorous Texts?”, Humanus, 2022, doi: 10.24036/humanus.v21i1.115698.<br>
 [2]	F. Regattin, "Traduction automatique et jeux de mots : l’incursion (ludique) d’un inculte". Brest, Université de Bretagne occidentale, mars 2021. [URL](https://motsmachines.github.io/2021/en/submissions/Mots-Machines-2021_paper_5.pdf)<br>
@@ -48,8 +39,7 @@ We will also welcome unshared runs (pun generation, humour perception, etc.). Fu
 [12]	A. Ermilov, N. Murashkina, V. Goryacheva, and P. Braslavski, "Stierlitz Meets SVM: Humor Detection in Russian", in Artificial Intelligence and Natural Language, Cham, 2018, p. 178‑184. doi: 10.1007/978-3-030-01204-5_17.<br>
 [13]	S. Castro, L. Chiruzzo, A. Rosá, D. Garat, and G. Moncecchi, "A Crowd-Annotated Spanish Corpus for Humor Analysis", in Proceedings of the Sixth International Workshop on Natural Language Processing for Social Media, Melbourne, Australia, juill. 2018, p. 7‑11. doi: 10.18653/v1/W18-3502.<br>
 [14]	L. Ermakova et. al., "CLEF Workshop JOKER: Automatic Wordplay and Humour Translation", in Advances in Information Retrieval, vol. 13186, M. Hagen, S. Verberne, C. Macdonald, C. Seifert, K. Balog, K. Nørvåg, et V. Setty, Éd. Cham: Springer International Publishing, 2022, p. 355‑363. doi: 10.1007/978-3-030-99739-7_45.<br>
-[15]	L. Ermakova et al., "Overview of the CLEF 2022 JOKER Task 3: Pun Translation from English into French", in Proceedings of the Working Notes of CLEF 2022: Conference and Labs of the Evaluation Forum, 2022.<br>
-[16]	T. Miller, C. Hempelmann, and I. Gurevych, "SemEval-2017 Task 7: Detection and Interpretation of English Puns", in Proceedings of the 11th International Workshop on Semantic Evaluation           (SemEval-2017), Vancouver, Canada, 2017, p. 58‑68. doi: 10.18653/v1/S17-2005.<br><br><br>
+[15]	L. Ermakova et al., "Overview of the CLEF 2022 JOKER Task 3: Pun Translation from English into French", in Proceedings of the Working Notes of CLEF 2022: Conference and Labs of the Evaluation Forum, 2022.<br><br><br>
 <a id="note1" href="#note1ref"><sup>1</sup></a>: *DeepL translator. Accessed on 17th July 2022. [URL](https://www.deepl.com/translator)*
 
 ## How to Cite
