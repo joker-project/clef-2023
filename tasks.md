@@ -1,4 +1,4 @@
-# JokeR
+# JOKER
 <p align="center">
   <img src="./img/joker.png" width="120" height="142">
 </p>
@@ -13,11 +13,10 @@
 
 ### Tasks, evaluation setup, and metrics
 In the edition, we propose three shared tasks:
-* Pun detection in English and French. We will use the corpora which were a side result of JOKER-2022 [1] and the augmented data of SemEval-2017 [2] as well as standard evaluation metrics for binary classification (precision, recall, accuracy)
-* Pun location and interpretation in English and French. We will use the extended corpus of JOKER-2022 Task 1. We will evaluate location based on the accuracy and the interpretation based on paronyms and synonyms.
-* Pun translation from English to French. We will use the extended version of the corpus of JOKER-2022 Task 3 and we will continue to evaluate the generated translation manually.
-As in 2022, we will run translation contests (eventually into other languages than French-e.g., Spanish, Maltese, and Portuguese) to have more parallel data and we will hire interns in translation to annotate them. We will also extend our corpus with worplay from literature (e.g. Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter) and from video games. We will use untranslated data for the test data in order to enrich our corpus for the future editions.
-We will also welcome unshared runs (pun generation, humour perception, etc.). Further details will be discussed during the break-out session at CLEF-2022. Note that, while our previous JOKER track proved to be very challenging (only 13% of evaluated translations being successful), the larger data set and new evaluation metrics could alleviate this in this round.
+* **Task 1: Pun detection** in English and French. We will use the corpora which were a side result of JOKER-2022 [1] and the augmented data of SemEval-2017 [2] as well as standard evaluation metrics for binary classification (precision, recall, accuracy)
+* **Task 2: Pun location** and interpretation in English and French. We will use the extended corpus of JOKER-2022 Task 1. We will evaluate location based on the accuracy and the interpretation based on paronyms and synonyms.
+* **Task 3: Pun translation** from English to French. We will use the extended version of the corpus of JOKER-2022 Task 3 and we will continue to evaluate the generated translation manually.
+
 
 ### References
 [1]	L. Ermakova et al., "Overview of the CLEF 2022 JOKER Task 3: Pun Translation from English into French", in Proceedings of the Working Notes of CLEF 2022: Conference and Labs of the Evaluation Forum, 2022.<br>
