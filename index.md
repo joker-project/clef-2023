@@ -12,7 +12,7 @@
   <h2 align="center">Automatic Wordplay Analysis</h2> 
 
 ### Topic and goals
-Humour remains one of the most difficult aspects of intercultural communication. Understanding humour often involves understanding implicit cultural references and/or double meanings, especially in the case of wordplay, which raises not only the question of its (un)translatability, but also how to detect and classify instances of this complex phenomenon. The goal of the JOKER track is to bring together linguists, translators, and computer scientists to create reusable test collections for benchmarking and to explore new evaluation metrics in order to foster work on automatic methods for wordplay interpretation, generation, and translation. Building on lessons learned from the 2022 edition detailed in section 6 of this proposal, we drop Task 2 (wordplay translation in named entities) and simplify Task 1 in order to provide three shared tasks which are more focused in matching the translation process: pun detection, interpretation, then translation. Differently from the state-of-the-art, we will also provide data in French for pun detection and interpretation. We will continue an unshared task with the aim of attracting runs with new use cases, e.g. pun generation or humour evaluation using our corpus. Additionally, we hope to be able to expand our corpus to several other languages.
+Humour remains one of the most difficult aspects of intercultural communication. Understanding humour often involves understanding implicit cultural references and/or double meanings, especially in the case of wordplay, which raises not only the question of its (un)translatability, but also how to detect and classify instances of this complex phenomenon. The goal of the JOKER track is to bring together linguists, translators, and computer scientists to create reusable test collections for benchmarking and to explore new evaluation metrics in order to foster work on automatic methods for wordplay interpretation, generation, and translation. 
 
 ### Relevance to CLEF and the significance for the field
 JOKER lies at the intersection of multiple fields, including natural language processing, machine translation (MT), and human-computer interaction, as well as linguistics, philosophy, and psychology. In the 2022 edition, we focused on machine translation and we constructed a unique English–French parallel corpus of wordplay with 5K parallel one-liner puns and 1.5K parallel instances of wordplay in named entities. We also saw runs based on our corpus for an unshared task for pun generation in order to improve interlocutor engagement in dialog systems. Recent developments in machine learning and artificial intelligence have greatly improved the quality of MT, but puns are often held to be untranslatable, particularly by statistical or neural MT [1], [2], which cannot robustly deal with texts that deliberately disregard or subvert linguistic conventions [3].
@@ -43,19 +43,16 @@ Wordplay is a recurrent feature of literature, advertising, movies, and social c
 <a id="note1" href="#note1ref"><sup>1</sup></a>: *DeepL translator. Accessed on 17th July 2022. [URL](https://www.deepl.com/translator)*
 
 ## How to Cite
-If you extend or use this work, please cite the [paper](https://link.springer.com/chapter/10.1007/978-3-030-99739-7_45) where it was introduced:
+If you extend or use this work, please cite the [paper](https://link.springer.com/chapter/10.1007/978-3-031-13643-6_27) where it was introduced:
 ```
-Ermakova, L., Miller, T., Puchalski, O., Regattin, F., Mathurin, É., Araújo, S., 
-Bosser, A.-G., Borg, C., Bokiniec, M., Corre, G. L., Jeanjean, B., Hannachi, R., 
-Mallia, Ġ., Matas, G., & Saki, M. (2022). 
-CLEF Workshop JOKER: Automatic Wordplay and Humour Translation. 
-In M. Hagen, S. Verberne, C. Macdonald, C. Seifert, K. Balog, K. Nørvåg, & V. Setty (Eds.), 
-Advances in Information Retrieval (Vol. 13186, pp. 355–363). Springer International Publishing. 
-https://doi.org/10.1007/978-3-030-99739-7_45
+Liana Ermakova, Tristan Miller, Fabio Regattin, Anne-Gwenn Bosser, Claudine Borg, Élise Mathurin, Gaëlle Le Corre, 
+Sílvia Araújo, Radia Hannachi, Julien Boccou, Albin Digue, Aurianne Damoy & Benoît Jeanjean, 2022. 
+Overview of JOKER@ CLEF 2022: Automatic Wordplay and Humour Translation workshop. 
+In International Conference of the Cross-Language Evaluation Forum for European Languages (pp. 447-469). Springer, Cham.
 ```
-[Paper](https://doi.org/10.1007/978-3-030-99739-7_45)
+[Paper](https://link.springer.com/chapter/10.1007/978-3-031-13643-6_27)
 
-[Dowload .BIB](./BibTex/joker_ecir_2022.bib)
+[Dowload .BIB](../clef-2022/BibTex/joker-clef-2022.bib)
 
 
 <p>
