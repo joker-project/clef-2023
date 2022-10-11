@@ -6,40 +6,39 @@
 [Home](index) | [Tasks](https://www.joker-project.com/clef-2023/tasks) | [CLEF program](program) | [Publications](publications) | Partners | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project) 
 <br>
 
-## Organizers: 
-* **Liana Ermakova (UBO)**
-<br>IT Lecturer
-<br>HCTI EA-4249, Department of Humanities and Social Sciences
+## Chairs: 
+* **Liana Ermakova (Université de Bretagne Occidentale, Brest, France)**
+<br>Associate professor in computer science
+<br>HCTI, Université de Bretagne Occidentale, Brest, France
 <br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Ermakova--Liana)
-<br>*Project Leader*
+<br>*Project Leader, General chair*
 
 * **Tristan Miller (Austrian Research Institute for Artificial Intelligence, Austria)**
 <br>Language and Interaction Technologies Group at OFAI
 <br>[Link to profile](https://logological.org/) 
-<br>*Participant*
+<br>*JOKER@CLEF chair*
 
 * **Adam Jatowt (University of Innsbruck, Austria)**
 <br>Full Professor at Department of Computer Science & Digital Science Center
 <br>[Link to profile](https://adammo12.github.io/adamjatowt/)
-<br>*Participant*
+<br>*JOKER@CLEF chair*
 
-* **Anne-Gwenn Bosser (ENIB)**
+* **Anne-Gwenn Bosser (ENIB, Brest, France)**
 <br>Associate Professor in Computational Sciences
 <br>Lab-STICC (CNRS UMR 6285), Leader of the COMMEDIA Team
 <br>[Link to profile](https://labsticc.fr/en/directory/bosser-anne-gwenn)
-<br>*Participant*
+<br>*JOKER@CLEF chair*
 
-* **Victor Manuel Palma Preciado (Instituto Politécnico Nacional, Mexico and UBO)**
+* **Victor Manuel Palma Preciado (Instituto Politécnico Nacional, Mexico / Université de Bretagne Occidentale, Brest, France)**
 <br>PhD student in computer science
-<br>*Participant*
+<br>*JOKER@CLEF chair*
 
 * **Grigori Sidorov (Instituto Politécnico Nacional, Mexico)**
 <br>Full Professor
 <br>[Link to profile](https://www.cic.ipn.mx/~sidorov/)
-<br>*Participant*
+<br>*JOKER@CLEF chair*
 
 ## Other organizers: 
-In this new edition of the workshop, we restrict the core organising committee to computer scientists. However, the project involves colleagues from humanities who help with data collection (mainly organisation of human translation contests—chair L. Ermakova) who participated in JOKER-2022 
 
 * **Fabio Regattin (Università degli Studi di Udine, Italy)**
 <br>Associate Professor in French to Italian Translation
@@ -53,55 +52,68 @@ In this new edition of the workshop, we restrict the core organising committee t
 <br>[Link to profile](http://cehum.ilch.uminho.pt/researchers/25)
 <br>*Participant*
 
-* **Radia Hannachi (UBS)**
+* **Radia Hannachi (Université de Bretagne Sud, Lorient, France)**
 <br>French Linguistics and French as a Foreign Language Didactics Lecturer
-<br>HCTI EA-4249, Faculty of Arts, Humanities and Social Sciences, “Département Ingénierie du Document”
+<br>HCTI, Faculty of Arts, Humanities and Social Sciences, “Département Ingénierie du Document”
 <br>*Participant*
 
-* **Élise Mathurin (UBO)**
+* **Élise Mathurin (Université de Bretagne Occidentale, Brest, France)**
 <br>English Linguistics Lecturer, in charge of the first-year students of the Technical Writing/Technical Translation master’s degree.
-<br>HCTI EA-4249, UFR ALL SHS, Department of English
+<br>HCTI, UFR ALL SHS, Department of English
 <br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Mathurin--Elise)
 <br>*Participant*
 
-* **Mohamed Saki (UBO)**
+* **Mohamed Saki (Université de Bretagne Occidentale, Brest, France)**
 <br>English Linguistics Lecturer
-<br>HCTI EA-4249, Department of Humanities and Social Sciences
+<br>HCTI, Department of Humanities and Social Sciences
 <br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Saki--Mohamed)
 <br>*Participant*
 
-* **Benoît Jeanjean (UBO)**
+* **Benoît Jeanjean (Université de Bretagne Occidentale, Brest, France)**
 <br>Latin Professor
-<br>HCTI EA-4249, Department of Humanities and Social Sciences
+<br>HCTI, Department of Humanities and Social Sciences
 <br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Jeanjean__Benoit)
 <br>*Participant*
 
-* **Gaëlle Le Corre (UBO)**
+* **Gaëlle Le Corre (Université de Bretagne Occidentale, Brest, France)**
 <br>English Linguistics Lecturer
 <br>EA 4451 CRBC, UFR ALL SHS, Department of English
 <br>[Link to profile](https://www.univ-brest.fr/crbc/menu/Membres+du+laboratoire/Enseignants-chercheurs/Ga-lle-Le-Corre)
 <br>*Participant*
 
-New members could help with eventual data collection in Spanish.
+* **Nathalie Narvaez (Université de Bretagne Occidentale, Brest, France)**
+<br>English Linguistics Lecturer
+<br>HCTI, Department of Humanities and Social Sciences
+<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Membres_associes/Narvaez--Nathalie)
+<br>*Participant*
 
-* **Nathalie Narvaez, Leopoldo Gutierrez, Khatima El Krirh, and Rachel Kinlay**
-<br>University of Cadiz, Spain
-
-We will also hire interns in translation to create new data and evaluate the runs.
 
 ## Partners from the SEA-EU universities: <img align="right" width="150" height="150" src="img/sea-eu.png">
 
-* **Ġorġ Mallia (University of Malta)**
+* **Leopoldo Gutierrez (University of Cadiz, Spain)**
 <br>Associate Professor
 <br>Media & Communications department, Faculty of Media & Knowledge Sciences
-<br>[Link to profile](https://www.um.edu.mt/profile/gorgmallia)
-<br>*Partner university coordinator, specialist in humour*
+<br>[Link to profile](blablabla)
+<br>*Partner university coordinator*
+
+* **Khatima El Krirh (University of Cadiz, Spain)**
+<br>*Participant*
+
+* **Rachel Kinlay (University of Cadiz, Spain)**
+<br>*Participant*
+
 
 * **Claudine Borg (University of Malta)**
 <br>Associate Professor
 <br>Translation, Terminology and Interpreting Studies Faculty of Arts
 <br>[Link to profile](https://www.um.edu.mt/profile/claudineborg)
-<br>*Participant, specialist in translation*
+<br>*Partner university coordinator, specialist in translation*
+
+* **Ġorġ Mallia (University of Malta)**
+<br>Associate Professor
+<br>Media & Communications department, Faculty of Media & Knowledge Sciences
+<br>[Link to profile](https://www.um.edu.mt/profile/gorgmallia)
+<br>*Participant, specialist in humour*
 
 * **Monika Bokiniec (University of Gdansk)** 
 <br>Associate Professor
@@ -123,15 +135,10 @@ We will also hire interns in translation to create new data and evaluate the run
 
 
 ## Website maintenance:
-* **Adrien Couaillet (UBO)**
-<br>Technical Translation/Redaction Master's Degree's Student
-<br>Department of English
-<br>*Intern*
-
-* **Ludivine Grégoire (UBO)**
-<br>Technical Translation/Redaction Master's Degree's Student
-<br>Department of English
-<br>*Intern*
+* **Adèle Gigon**, Université de Bretagne Occidentale, Brest, France
+* **Axele Le Breton**, Université de Bretagne Occidentale, Brest, France
+* **Aurianne Damoy**, Université de Bretagne Occidentale, Brest, France
+* **Angélique Robert**, Université de Bretagne Occidentale, Brest, France
 
 <p align="center">
 <img src="img/ubo.png" width="150">  <img src="img/ubs.png" width="150">  <img src="img/crbc.png" width="150">
