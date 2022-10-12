@@ -140,7 +140,7 @@
 * **Aurianne Damoy**, Université de Bretagne Occidentale, Brest, France
 * **Angélique Robert**, Université de Bretagne Occidentale, Brest, France
 
-  
+<br>
 <p align="center">
 <img src="img/ubo.png" width="150"> <img src="img/crbc.png" width="150"> <img src="img/enib.png" width="130">
 <br><img src="img/universitaet-innsbruck-logo-cmyk-farbe.jpg" width="180"> <img src="img/Logo_IPN.png" width="100">  <img src="img/hcti.png" width="80">
