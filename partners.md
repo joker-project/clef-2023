@@ -141,10 +141,13 @@
 * **Angélique Robert**, Université de Bretagne Occidentale, Brest, France
 
 <p align="center">
-<img src="img/ubo.png" width="150">  <img src="img/ubs.png" width="150">  <img src="img/crbc.png" width="150">
-<br><img src="img/enib.png" width="130">  <img src="img/cehum.png" width="180">
-<br><img src="img/universita-malta.png" width="200">  <img src="img/university-of-split.png" width="100">  <img src="img/universita-udine.png" width="230">
-<br><img src="img/university-of-gdansk.png" width="120">  <img src="img/hcti.png" width="80">  <img src="img/ofai.png" width="90">
+<img src="img/ubo.png" width="150"> <img src="img/crbc.png" width="150"> <img src="img/enib.png" width="130">
+<br><img src="img/universitaet-innsbruck-logo-cmyk-farbe.jpg" width="180"> <img src="img/Logo_IPN.png" width="100">  <img src="img/hcti.png" width="80">
+
+<br><img src="img/universita-udine.png" width="230"> <img src="img/cehum.png" width="180"> <img src="img/ubs.png" width="150"> <img src="img/ofai.png" width="90">
+
+<br><img src="img/universita-malta.png" width="200">  <img src="img/university-of-split.png" width="100">
+<br><img src="img/university-of-gdansk.png" width="120"> <img src="img/1200px-Logouniversidadcadiz.svg.png" width="90">
 </p>
 
 <p>
