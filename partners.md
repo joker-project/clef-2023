@@ -139,7 +139,7 @@
 * **Axele Le Breton**, Université de Bretagne Occidentale, Brest, France
 * **Aurianne Damoy**, Université de Bretagne Occidentale, Brest, France
 * **Angélique Robert**, Université de Bretagne Occidentale, Brest, France
-  
+
   
 <p align="center">
 <img src="img/ubo.png" width="150"> <img src="img/crbc.png" width="150"> <img src="img/enib.png" width="130">
