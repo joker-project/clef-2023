@@ -1,4 +1,4 @@
-theme: Minima
+theme: jekyll-theme-leap-day
 title: null
 github:
   is_project_page: false
