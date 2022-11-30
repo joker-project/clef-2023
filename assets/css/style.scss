@@ -1,7 +1,7 @@
-$header-heading-color: #fff !default;
+@import "{{ site.theme }}";
+
 $header-bg-color: #f39c12;
 $header-bg-color-secondary: #e67e22;
-@import "{{ site.theme }}";
 header {
      background-image:url("https://github.com/joker-project/clef-2023/blob/main/img/bodychange1.png");
      background-color:#444
