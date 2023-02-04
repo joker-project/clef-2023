@@ -18,6 +18,8 @@ In the edition, we propose three shared tasks:
 * **Task 3: Pun translation** from English to French. We will use the extended version of the corpus of JOKER-2022 Task 3 and we will continue to evaluate the generated translation manually.
 * **Open Task:** in English and French. In addition, we encourage the use of our data for tasks related to computational wordplay and humour. These could take the form of experiment reports on humour perception, evaluation, wordplay generation, or user studies. Register for any of the aforementioned shared task if you are interested in this open task.
 
+[REGISTER HERE](http://clef2023-labs-registration.dei.unipd.it/)
+
 ### References
 [1]	L. Ermakova et al., "Overview of the CLEF 2022 JOKER Task 3: Pun Translation from English into French", in Proceedings of the Working Notes of CLEF 2022: Conference and Labs of the Evaluation Forum, 2022.<br>
 [2]	T. Miller, C. Hempelmann, and I. Gurevych, "SemEval-2017 Task 7: Detection and Interpretation of English Puns", in Proceedings of the 11th International Workshop on Semantic Evaluation           (SemEval-2017), Vancouver, Canada, 2017, p. 58‑68. doi: 10.18653/v1/S17-2005.<br><br><br>
