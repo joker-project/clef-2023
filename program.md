@@ -30,7 +30,7 @@ Joker Sessions takes place in **ROOM 3** except for the lab overviews.
 
 ### Joker Session 1 (ROOM 3)
 
-* **09:30 - 10:30** Invited talk by **Jussi Karlgren** on _"To be announced"_ : 
+* **09:30 - 10:30** Invited talk by **Jussi Karlgren** on _"The Importance of Stylistics in Information Retrieval and Natural Language Processing"_ : 
 
 > **Abstract**: To be added.
 
