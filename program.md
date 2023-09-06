@@ -36,7 +36,9 @@ Joker Sessions takes place in **ROOM 3** except for the lab overviews.
 
 > **Bio**: Jussi Karlgren is a Principal AI Scientist at SiloGen and Silo AI.  He is an advisor, strategist, and hands-on researcher.
 He is on several advisory and governing boards for several different types of organisation, ranging from start-ups to government agencies and NGOs. I have mostly worked in industrial research and development, in projects where technology meets human users, and mostly in contexts where search and retrieval systems are the main application. 
-He has worked in research related to interaction and language use since 1988, ranging from brand name design and communication strategies, to theoretical work on style and genre in language, algorithmic work in distributional semantics, recommender systems, interaction design, and quantitative evaluation of information system quality.   Last, but not least, he is a CLEF champion having attended every single edition of the CLEF workshop and CLEF conference.
+He has worked in research related to interaction and language use since 1988, ranging from brand name design and communication strategies, to theoretical work on style and genre in language, algorithmic work in distributional semantics, recommender systems, interaction design, and quantitative evaluation of information system quality.
+
+<!-- Last, but not least, he is a CLEF champion having attended every single edition of the CLEF workshop and CLEF conference. -->
 
 * **10:30 - 11:00** JOKER Track overview papers:
    * **Liana Ermakova**, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
