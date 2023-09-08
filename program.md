@@ -5,8 +5,8 @@
 
 [Home](index) | [Tasks](https://www.joker-project.com/clef-2023/tasks) | CLEF program | [Publications](publications) | [Partners](partners) | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)
 <br>
-  <h1 align="center">JOKER Workshop:</h1>
-  <h2 align="center">Automatic Pun and Humour Translation</h2>
+<h1 align="center">CLEF 2023 JOKER Track:</h1>
+<h2 align="center">Automatic Wordplay Analysis</h2> 
 
 * [CLEF registration](https://clef2023.clef-initiative.eu/index.php?page=Pages/conferenceRegistration.html)
 * [CLEF program](https://clef2023.clef-initiative.eu/index.php?page=Pages/programme.html)
@@ -16,7 +16,7 @@
 ------------------------------------------------------------
 ## Wednesday 20th September 
 
-Joker Sessions takes place in **ROOM 3** except for the lab overviews.
+JOKER Sessions takes place in **ROOM 3** except for the lab overviews.
 
 
 ### Lab Overviews (ROOM 1)
@@ -28,17 +28,16 @@ Joker Sessions takes place in **ROOM 3** except for the lab overviews.
 
 ## Thursday 21st September
 
-### Joker Session 1 (ROOM 3)
+### JOKER Session 1 (ROOM 3)
 
 * **09:30 - 10:30** Invited talk by **Jussi Karlgren** on _"The Importance of Stylistics in Information Retrieval and Natural Language Processing"_ : 
 
 > **Abstract**: To be added.
 
 > **Bio**: Jussi Karlgren is a Principal AI Scientist at SiloGen and Silo AI.  He is an advisor, strategist, and hands-on researcher.
-He is on several advisory and governing boards for several different types of organisation, ranging from start-ups to government agencies and NGOs. I have mostly worked in industrial research and development, in projects where technology meets human users, and mostly in contexts where search and retrieval systems are the main application. 
-He has worked in research related to interaction and language use since 1988, ranging from brand name design and communication strategies, to theoretical work on style and genre in language, algorithmic work in distributional semantics, recommender systems, interaction design, and quantitative evaluation of information system quality.
+He is on several advisory and governing boards for several different types of organisations, ranging from start-ups to government agencies and NGOs. He has mostly worked in industrial research and development, in projects where technology meets human users, and mostly in contexts where search and retrieval systems are the main application. 
+He has worked in research related to interaction and language use since 1988, ranging from brand name design and communication strategies to theoretical work on style and genre in language, algorithmic work in distributional semantics, recommender systems, interaction design, and quantitative evaluation of information system quality.
 
-<!-- Last, but not least, he is a CLEF champion having attended every single edition of the CLEF workshop and CLEF conference. -->
 
 * **10:30 - 11:00** JOKER Track overview papers:
    * **Liana Ermakova**, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
@@ -53,7 +52,7 @@ _Overview of JOKER 2023 Automatic Wordplay Analysis Task 2 – Pun Location and 
 _Overview of JOKER 2023 Automatic Wordplay Analysis Task 3 – Pun Translation_
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-151.pdf)).
 
-### Joker Session 2 (ROOM 3)
+### JOKER Session 2 (ROOM 3)
 
 * **11:30 - 13:00** Participant presentations (13+5 minutes).
 
@@ -78,22 +77,22 @@ Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-162.pdf)).
 
 
-### Joker Session 3 (ROOM 3)
+### JOKER Session 3 (ROOM 3)
 
-* **14:00 - 14:30** Invited talk by **Alexander Libov** (Amazon) on _"Humorous Response Generation to Playful Shopping Requests"_ : 
+* **14:00 - 14:30** Invited talk by **Alexander Libov** (Amazon) on _"Humorous Response Generation to Playful Shopping Requests"_  
 
 > **Abstract**: To be added.
 
 > **Bio**: Alex Libov is an Applied Science Manager in the Alexa Shopping Science team at Amazon.  He received his B.Sc., M.Sc and Ph.D. at the Technion - Israel Institute of Technology. His thesis was in the area of Distributed Systems under the supervision of Prof. Roy Friedman. During his studies, he worked and interned at Intel, Microsoft, IBM and Yahoo. After graduating, he spent two years in the Yahoo Research mail team working on mail search query suggestions and top results selection.
 
-* **14:00 - 15:30** Round table and Joker 2024 discussion:
+* **14:00 - 15:30** Round table and JOKER 2024 discussion:
     * We want to hear from *you*!
     * What was great about 2023, and what could we improve for you?
     * Any ideas or volunteers are welcome!
-    * Joker roadmap    
+    * JOKER roadmap    
 
 ### Closing and Introduction of CLEF 2024 (Room 1)
-* **16:30 - 17:00** Closing and plans for 2024 (including 2-5 slides on the CLEF 2024 Joker track)
+* **16:30 - 17:00** Closing and plans for 2024 (including 2-5 slides on the CLEF 2024 JOKER track)
 
 ## All CLEF 2023 JOKER (Automatic Wordplay Analysis) track papers 
 
