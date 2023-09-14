@@ -68,7 +68,7 @@ _BU-Pier Team @ CLEF JOKER 2023 Open Task: Slip of the Tongue Generation to Impr
 
 * Stefan Reicho, **Adam Jatowt**
 Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition in Text
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-162.pdf)).
+([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-162.pdf), online).
 
 
 ### JOKER Session 3 (ROOM 3)
