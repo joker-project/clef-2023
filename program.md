@@ -20,7 +20,7 @@ JOKER Sessions takes place in **ROOM 3** except for the lab overviews.
 
 
 ### Lab Overviews (ROOM 1)
-* **11:20 - 13:00**	Lab overviews: CheckThat!, **JokeR**, EXIST, Touché, iDPP
+* **11:20 - 13:00** Lab overviews: CheckThat!, **JokeR**, EXIST, Touché, iDPP
 			
 ### CONFERENCE Session 5: Natural Language Processing (Room 1)
 
@@ -69,7 +69,6 @@ _BU-Pier Team @ CLEF JOKER 2023 Open Task: Slip of the Tongue Generation to Impr
 * Stefan Reicho, **Adam Jatowt**
 Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition in Text
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-162.pdf), online).
-
 
 ### JOKER Session 3 (ROOM 3)
 
