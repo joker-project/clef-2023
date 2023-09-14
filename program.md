@@ -30,13 +30,15 @@ JOKER Sessions takes place in **ROOM 3** except for the lab overviews.
 
 ### JOKER Session 1 (ROOM 3)
 
-* **09:30 - 10:30** Invited talk by **Jussi Karlgren** on _"The Importance of Stylistics in Information Retrieval and Natural Language Processing"_ : 
+* **09:30 - 10:30** Invited talk by **Jussi Karlgren** on _"How to evaluate delight and diversion?"_ : 
 
-> **Abstract**: To be added.
+> **Abstract**: Interactive computer systems are often designed for some task, with implicit or explicit target notions and quality metrics. Some tasks are work-related, some are less so. How well a system addresses its intended tasks is measured in various ways, but the somewhat more ephemereal and less goal-directed quality aspects of a system are difficult to address and measure well.
 
-> **Bio**: Jussi Karlgren is a Principal AI Scientist at SiloGen and Silo AI.  He is an advisor, strategist, and hands-on researcher.
-He is on several advisory and governing boards for several different types of organisations, ranging from start-ups to government agencies and NGOs. He has mostly worked in industrial research and development, in projects where technology meets human users, and mostly in contexts where search and retrieval systems are the main application. 
-He has worked in research related to interaction and language use since 1988, ranging from brand name design and communication strategies to theoretical work on style and genre in language, algorithmic work in distributional semantics, recommender systems, interaction design, and quantitative evaluation of information system quality.
+The target notion of information access systems is "relevance" and quality benchmarks are based on human-assessed topical relevance of items for a topical information need. Semantic components in language processing are typically evaluated using vocabulary benchmarks which are biased towards topicality.
+
+How might the delightfulness and enjoyability of an information system, of a text or a conversation, or an interactive session be measured systematically? Can it even be done?
+
+> **Bio**: Jussi Karlgren is a Principal AI Scientist at Silogen, where he works on quality criteria for large language models, and he is one of the chairs of the newly announced ELOQUENT lab at CLEF which will work on such questions. He has worked on statistical language models, evaluation of information system quality, and human-computer interaction in industrial and academic research groups for more than thirty years. His major research interest is in computational stylistics in language, in finding quantitative descriptions of the many different ways we can address a topic in discourse.
 
 
 * **10:30 - 11:00** JOKER Track overview papers:
@@ -67,10 +69,6 @@ Why Sentiment Analysis is a Joke with JOKER data? Word-Level and Interpretation 
 * Loïc Glemarec, **Fred Charles**
 _BU-Pier Team @ CLEF JOKER 2023 Open Task: Slip of the Tongue Generation to Improve Social Interaction with Virtual Agents_
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-156.pdf), online).
-
-* **Ryan Rony Dsilva**
-_AKRaNLU @ CLEF JOKER 2023: Using Sentence Embeddings and Multilingual Models to Detect and Interpret Wordplay_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-154.pdf)).
 
 * Stefan Reicho, **Adam Jatowt**
 Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition in Text
