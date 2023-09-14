@@ -73,13 +73,13 @@ Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition
 
 ### JOKER Session 3 (ROOM 3)
 
-* **14:00 - 14:30** Invited talk by **Alexander Libov** (Amazon) on _"Humorous Response Generation to Playful Shopping Requests"_  
+* **14:00 - 15:00** Invited talk by **Alexander Libov** (Amazon) on _"Humorous Response Generation to Playful Shopping Requests"_  
 
 > **Abstract**: To be added.
 
 > **Bio**: Alex Libov is an Applied Science Manager in the Alexa Shopping Science team at Amazon.  He received his B.Sc., M.Sc and Ph.D. at the Technion - Israel Institute of Technology. His thesis was in the area of Distributed Systems under the supervision of Prof. Roy Friedman. During his studies, he worked and interned at Intel, Microsoft, IBM and Yahoo. After graduating, he spent two years in the Yahoo Research mail team working on mail search query suggestions and top results selection.
 
-* **14:00 - 15:30** Round table and JOKER 2024 discussion:
+* **15:00 - 15:30** Round table and JOKER 2024 discussion:
     * We want to hear from *you*!
     * What was great about 2023, and what could we improve for you?
     * Any ideas or volunteers are welcome!
