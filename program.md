@@ -59,7 +59,7 @@ _NLPalma @ CLEF 2023 JOKER: A BLOOMZ and BERT Approach for Wordplay Detection an
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-159.pdf), online).
 
 * **Tremaine Thomas-Young**
-Why Sentiment Analysis is a Joke with JOKER data? Word-Level and Interpretation Analysis (CLEF 2023 JOKER Task 2)
+_Why Sentiment Analysis is a Joke with JOKER data? Word-Level and Interpretation Analysis (CLEF 2023 JOKER Task 2)_
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-163.pdf)).
 
 * Loïc Glemarec, **Fred Charles**
@@ -67,8 +67,12 @@ _BU-Pier Team @ CLEF JOKER 2023 Open Task: Slip of the Tongue Generation to Impr
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-156.pdf), online).
 
 * Stefan Reicho, **Adam Jatowt**
-Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition in Text
+_Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition in Text_
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-162.pdf), online).
+
+* [Talk from SimpleText] **Sílvia Araújo**, Micaela Aguiar
+_Comparing ChatGPT’s and Human Evaluation of Scientific Texts’ Translations from English to Portuguese Using Popular Automated Translators_
+([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-243.pdf), online).
 
 ### JOKER Session 3 (ROOM 3)
 
