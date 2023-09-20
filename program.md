@@ -54,6 +54,10 @@ _Overview of JOKER 2023 Automatic Wordplay Analysis Task 3 – Pun Translation_
 
 * **11:30 - 13:00** Participant presentations (13+5 minutes).
 
+* Loïc Glemarec, **Fred Charles**
+_BU-Pier Team @ CLEF JOKER 2023 Open Task: Slip of the Tongue Generation to Improve Social Interaction with Virtual Agents_
+([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-156.pdf), online).
+
 * **Victor Manuel Palma Preciado**, Carolina Palma Preciado, Grigori Sidorov
 _NLPalma @ CLEF 2023 JOKER: A BLOOMZ and BERT Approach for Wordplay Detection and Translation_
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-159.pdf), online).
@@ -61,10 +65,6 @@ _NLPalma @ CLEF 2023 JOKER: A BLOOMZ and BERT Approach for Wordplay Detection an
 * **Tremaine Thomas-Young**
 _Why Sentiment Analysis is a Joke with JOKER data? Word-Level and Interpretation Analysis (CLEF 2023 JOKER Task 2)_
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-163.pdf)).
-
-* Loïc Glemarec, **Fred Charles**
-_BU-Pier Team @ CLEF JOKER 2023 Open Task: Slip of the Tongue Generation to Improve Social Interaction with Virtual Agents_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-156.pdf), online).
 
 * Stefan Reicho, **Adam Jatowt**
 _Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition in Text_
