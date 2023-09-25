@@ -30,14 +30,14 @@ JOKER Sessions takes place in **ROOM 3** except for the lab overviews.
 
 ### JOKER Session 1 (ROOM 3)
 
-* **09:30 - 10:30** Invited talk by **Jussi Karlgren** on _"How to evaluate delight and diversion?"_ : 
+* **09:30 - 10:30** Invited talk by **Jussi Karlgren** on _"How to evaluate delight and diversion?"_ ([Slides](slides/JOKER23_keynote_Karlgren.pdf)): 
 
 > **Abstract**: Interactive computer systems are often designed for some task, with implicit or explicit target notions and quality metrics. Some tasks are work-related, some are less so. How well a system addresses its intended tasks is measured in various ways, but the somewhat more ephemereal and less goal-directed quality aspects of a system are difficult to address and measure well. The target notion of information access systems is "relevance" and quality benchmarks are based on human-assessed topical relevance of items for a topical information need. Semantic components in language processing are typically evaluated using vocabulary benchmarks which are biased towards topicality. How might the delightfulness and enjoyability of an information system, of a text or a conversation, or an interactive session be measured systematically? Can it even be done?
 
 > **Bio**: Jussi Karlgren is a Principal AI Scientist at Silogen, where he works on quality criteria for large language models, and he is one of the chairs of the newly announced ELOQUENT lab at CLEF which will work on such questions. He has worked on statistical language models, evaluation of information system quality, and human-computer interaction in industrial and academic research groups for more than thirty years. His major research interest is in computational stylistics in language, in finding quantitative descriptions of the many different ways we can address a topic in discourse.
 
 
-* **10:30 - 11:00** JOKER Track overview papers:
+* **10:30 - 11:00** JOKER Track overview papers ([Slides](slides/JOKER23_overview.pdf)):
    * **Liana Ermakova**, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
 _Overview of JOKER 2023 Automatic Wordplay Analysis Task 1 – Pun Detection_
 ([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-149.pdf)).
@@ -86,10 +86,10 @@ _Comparing ChatGPT’s and Human Evaluation of Scientific Texts’ Translations 
     * We want to hear from *you*!
     * What was great about 2023, and what could we improve for you?
     * Any ideas or volunteers are welcome!
-    * JOKER roadmap    
+    * JOKER roadmap 
 
 ### Closing and Introduction of CLEF 2024 (Room 1)
-* **16:30 - 17:00** Closing and plans for 2024 (including 2-5 slides on the CLEF 2024 JOKER track)
+* **16:30 - 17:00** Closing and plans for 2024 (including [slides](slides/JOKER24_short.pdf) on the CLEF 2024 JOKER track)
 
 ## All CLEF 2023 JOKER (Automatic Wordplay Analysis) track papers 
 
