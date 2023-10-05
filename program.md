@@ -11,7 +11,7 @@
 * [CLEF registration](https://clef2023.clef-initiative.eu/index.php?page=Pages/conferenceRegistration.html)
 * [CLEF program](https://clef2023.clef-initiative.eu/index.php?page=Pages/programme.html)
 * [CLEF LNCS Proceedings](https://link.springer.com/conference/clef)
-* [CLEF Working Notes](https://ceur-ws.org/)
+* [CLEF Working Notes](https://ceur-ws.org/Vol-3497/)
 
 ------------------------------------------------------------
 ## Wednesday 20th September 
@@ -40,15 +40,15 @@ JOKER Sessions takes place in **ROOM 3** except for the lab overviews.
 * **10:30 - 11:00** JOKER Track overview papers ([Slides](slides/JOKER23_overview.pdf)):
    * **Liana Ermakova**, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
 _Overview of JOKER 2023 Automatic Wordplay Analysis Task 1 – Pun Detection_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-149.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-149.pdf)).
 
    * **Liana Ermakova**, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
 _Overview of JOKER 2023 Automatic Wordplay Analysis Task 2 – Pun Location and Interpretation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-150.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-150.pdf)).
 
    * **Liana Ermakova**, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
 _Overview of JOKER 2023 Automatic Wordplay Analysis Task 3 – Pun Translation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-151.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-151.pdf)).
 
 ### JOKER Session 2 (ROOM 3)
 
@@ -56,23 +56,23 @@ _Overview of JOKER 2023 Automatic Wordplay Analysis Task 3 – Pun Translation_
 
 * Loïc Glemarec, **Fred Charles**
 _BU-Pier Team @ CLEF JOKER 2023 Open Task: Slip of the Tongue Generation to Improve Social Interaction with Virtual Agents_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-156.pdf), online).
+([Paper](https://ceur-ws.org/Vol-3497/paper-156.pdf), online).
 
 * Stefan Reicho, **Adam Jatowt**
 _Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition in Text_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-162.pdf), online).
+([Paper](https://ceur-ws.org/Vol-3497/paper-162.pdf), online).
 
 * **Tremaine Thomas-Young**
 _Why Sentiment Analysis is a Joke with JOKER data? Word-Level and Interpretation Analysis (CLEF 2023 JOKER Task 2)_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-163.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-163.pdf)).
 
 * **Victor Manuel Palma Preciado**, Carolina Palma Preciado, Grigori Sidorov
 _NLPalma @ CLEF 2023 JOKER: A BLOOMZ and BERT Approach for Wordplay Detection and Translation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-159.pdf), online).
+([Paper](https://ceur-ws.org/Vol-3497/paper-159.pdf), online).
 
 * [Talk from SimpleText] **Sílvia Araújo**, Micaela Aguiar
 _Comparing ChatGPT’s and Human Evaluation of Scientific Texts’ Translations from English to Portuguese Using Popular Automated Translators_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-243.pdf), online).
+([Paper](https://ceur-ws.org/Vol-3497/paper-243.pdf), online).
 
 ### JOKER Session 3 (ROOM 3)
 
@@ -97,61 +97,61 @@ _Comparing ChatGPT’s and Human Evaluation of Scientific Texts’ Translations 
 
 * Liana Ermakova, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
 _Overview of JOKER 2023 Automatic Wordplay Analysis Task 1 – Pun Detection_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-149.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-149.pdf)).
 
 * Liana Ermakova, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
 _Overview of JOKER 2023 Automatic Wordplay Analysis Task 2 – Pun Location and Interpretation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-150.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-150.pdf)).
 
 * Liana Ermakova, Tristan Miller, Anne-Gwenn Bosser, Victor Manuel Palma Preciado, Grigori Sidorov, Adam Jatowt
 _Overview of JOKER 2023 Automatic Wordplay Analysis Task 3 – Pun Translation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-151.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-151.pdf)).
 
 * Aftab Anjum, Nikolaus Lieberum
 _Exploring Humor in Natural Language Processing: A Comprehensive Review of JOKER Tasks at CLEF Symposium 2023_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-152.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-152.pdf)).
 
 * Océane Brunelière, Constance Germann, Keith Salina
 _CLEF 2023 JOKER Task 2 : Using Chat GPT for Pun Location and Interpretation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-153.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-153.pdf)).
 
 * Ryan Rony Dsilva
 _AKRaNLU @ CLEF JOKER 2023: Using Sentence Embeddings and Multilingual Models to Detect and Interpret Wordplay_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-154.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-154.pdf)).
 
 * Quentin Dubreuil
 _UBO Team @ CLEF JOKER 2023 Track For Task 1, 2 and 3 - Applying AI Models In Regards To Pun Translation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-155.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-155.pdf)).
 
 * Loïc Glemarec, Fred Charles
 _BU-Pier Team @ CLEF JOKER 2023 Open Task: Slip of the Tongue Generation to Improve Social Interaction with Virtual Agents_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-156.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-156.pdf)).
 
 * Julia Komorowska, Iva Čatipović, Darko Vujica
 _CLEF2023’ JOKER_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-157.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-157.pdf)).
 
 * Felix Ohnesorge, Mari Angeles Gutierrez, Julia Plichta
 _CLEF 2023 JOKER Tasks 2 and 3: Using NLP Models for Pun Location, Interpretation and Translation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-158.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-158.pdf)).
 
 * Victor Manuel Palma Preciado, Carolina Palma Preciado, Grigori Sidorov
 _NLPalma @ CLEF 2023 JOKER: A BLOOMZ and BERT Approach for Wordplay Detection and Translation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-159.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-159.pdf)).
 
 * Olga Popova, Petra Dadić
 _Does AI Have a Sense of Humor? CLEF 2023 JOKER Tasks 1, 2 and 3: Using BLOOM, GPT, SimpleT5, and More for Pun Detection, Location, Interpretation and Translation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-160.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-160.pdf)).
 
 * Antonela Prnjak, Dennis R. Davari, Kristina Schmitt
 _CLEF 2023 JOKER Task 1, 2, 3: Pun Detection, Pun Interpretation, and Pun Translation_
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-161.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-161.pdf)).
 
 * Stefan Reicho, Adam Jatowt
 Innsbruck @ JOKER2023 Task 1: Data Augmentation Techniques for Humor Recognition in Text
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-162.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-162.pdf)).
 
 * Tremaine Thomas-Young
 Why Sentiment Analysis is a Joke with JOKER data? Word-Level and Interpretation Analysis (CLEF 2023 JOKER Task 2)
-([Paper](https://www.dei.unipd.it/~faggioli/temp/CLEF2023-proceedings/paper-163.pdf)).
+([Paper](https://ceur-ws.org/Vol-3497/paper-163.pdf)).
 
