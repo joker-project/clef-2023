@@ -6,7 +6,7 @@
 [Accueil](index) | [Tâches](https://www.joker-project.com/clef-2023/tasks) | [Programme CLEF](program) | [Publications](publications) | [Partenaires](partners) | [Concours](contest) | Contacts | [Outils](tools) |  [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)  
 <br>
 
-## Contact us via:
+## Contactez-nous via:
 <br>
 
 **Twitter:** [https://twitter.com/joker_research](https://twitter.com/joker_research)
@@ -18,10 +18,10 @@
 
 
 <p>
-<em>This project has received a government grant managed by the National Research Agency under the program "Investissements d'avenir" integrated into France 2030, with the Reference ANR-19-GURE-0001.</em>
+<em>Ce projet a reçu une subvention gouvernementale gérée par l'Agence Nationale de la Recherche dans le cadre du programme « Investissements d'avenir » intégré à France 2030, avec la référence ANR-19-GURE-0001.</em>
 </p>
 <p>
-<em>JOKER is supported by The Human Science Institute in Brittany (MSHB)</em>
+<em>JOKER est soutenu par l'Institut des Sciences Humaines de Bretagne (MSHB).</em>
 </p>
 <div align="center">
   <a href="https://www.mshb.fr"><img src="../img/mshb.jpg" height="120"></a>
