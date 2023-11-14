@@ -1,6 +1,6 @@
 # JOKER
 <p align="center">
-  <img src="img/joker.png" width="120" height="142">
+  <img src="../img/joker.png" width="120" height="142">
 </p>
 
 [Home](index) | [Tasks](https://www.joker-project.com/clef-2023/tasks) | [CLEF program](program) | [Publications](publications) | [Partners](partners) | [Contest](contest) | Contact Us | [Tools](tools) |  [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)  
