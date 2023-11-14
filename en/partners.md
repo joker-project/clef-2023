@@ -1,6 +1,6 @@
 # JOKER
 <p align="center">
-  <img src="img/joker.png" width="120" height="142">
+  <img src="../img/joker.png" width="120" height="142">
 </p>
 
 [Home](index) | [Tasks](https://www.joker-project.com/clef-2023/tasks) | [CLEF program](program) | [Publications](publications) | Partners | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project) 
@@ -88,7 +88,7 @@
 <br>*Participant*
 
 
-## Partners from the SEA-EU universities: <img align="right" width="150" height="150" src="img/sea-eu.png">
+## Partners from the SEA-EU universities: <img align="right" width="150" height="150" src="../img/sea-eu.png">
 
 * **Leopoldo Gutierrez (University of Cadiz, Spain)**
 <br>Associate Professor
@@ -142,13 +142,13 @@
 
 <br>
 <p align="center">
-<img src="img/ubo.png" width="150"> <img src="img/crbc.png" width="150"> <img src="img/enib.png" width="130"> <img src="img/universitaet-innsbruck-logo-cmyk-farbe.jpg" width="180">
+<img src="../img/ubo.png" width="150"> <img src="../img/crbc.png" width="150"> <img src="../img/enib.png" width="130"> <img src="../img/universitaet-innsbruck-logo-cmyk-farbe.jpg" width="180">
 <br>
-<br> <img src="img/Logo_IPN.png" width="100">  <img src="img/ofai.png" width="90">   <img src="img/hcti.png" width="80">
+<br> <img src="../img/Logo_IPN.png" width="100">  <img src="../img/ofai.png" width="90">   <img src="../img/hcti.png" width="80">
 <br>
-<br><img src="img/universita-udine.png" width="230"> <img src="img/cehum.png" width="180"> <img src="img/ubs.png" width="150">
+<br><img src="../img/universita-udine.png" width="230"> <img src="../img/cehum.png" width="180"> <img src="../img/ubs.png" width="150">
 <br>
-<br><img src="img/universita-malta.png" width="200">  <img src="img/university-of-split.png" width="100"> <img src="img/university-of-gdansk.png" width="120"> <img src="img/1200px-Logouniversidadcadiz.svg.png" width="90">
+<br><img src="../img/universita-malta.png" width="200">  <img src="../img/university-of-split.png" width="100"> <img src="../img/university-of-gdansk.png" width="120"> <img src="../img/1200px-Logouniversidadcadiz.svg.png" width="90">
 </p>
 
 <p>
@@ -158,11 +158,11 @@
 <em>JOKER is supported by The Human Science Institute in Brittany (MSHB)</em>
 </p>
 <div align="center">
-  <a href="https://www.mshb.fr"><img src="img/mshb.jpg" height="120"></a>
-  <a href="https://sea-eu.org/?lang=fr"><img src="img/sea-eu.png" height="120"></a>
-  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="img/Logotype France 2030.jpg" height="120"></a>
+  <a href="https://www.mshb.fr"><img src="../img/mshb.jpg" height="120"></a>
+  <a href="https://sea-eu.org/?lang=fr"><img src="../img/sea-eu.png" height="120"></a>
+  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="../img/Logotype France 2030.jpg" height="120"></a>
 </div>
 <br />
 <div align="center">
-  <a href="https://clef2022.clef-initiative.eu/index.php"><img src="img/clef2023.png" height="90"></a> 
+  <a href="https://clef2022.clef-initiative.eu/index.php"><img src="../img/clef2023.png" height="90"></a> 
 </div>
