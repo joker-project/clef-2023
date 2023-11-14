@@ -6,7 +6,7 @@
 [Accueil](index) | [Tâches](https://www.joker-project.com/clef-2023/tasks) | [Programme CLEF](program) | [Publications](publications) | Partenaires | [Contest](contest) | [Contacts](contact) | [Outils](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project) 
 <br>
 
-## Participants : 
+## Direction : 
 * **Liana Ermakova (Université de Bretagne Occidentale, Brest, France)**
 <br>Professeure agrégée en informatique
 <br>HCTI, Université de Bretagne Occidentale, Brest, France
@@ -16,85 +16,85 @@
 * **Tristan Miller (Austrian Research Institute for Artificial Intelligence, Austria)**
 <br>Groupe des technologies du langage et de l'interaction à l'OFAI
 <br>[Lien vers le profil](https://logological.org/) 
-<br>*JOKER@CLEF chair*
+<br>*Direction de JOKER@CLEF*
 
 * **Adam Jatowt (University of Innsbruck, Austria)**
-<br>Full Professor at Department of Computer Science & Digital Science Center
+<br>Professeur titulaire au département d'informatique et au Digital Science Center
 <br>[Lien vers le profil](https://adammo12.github.io/adamjatowt/)
-<br>*JOKER@CLEF chair*
+<br>*Direction de JOKER@CLEF*
 
 * **Anne-Gwenn Bosser (ENIB, Brest, France)**
-<br>Associate Professor in Computational Sciences
-<br>Lab-STICC (CNRS UMR 6285), Leader of the COMMEDIA Team
-<br>[Link to profile](https://labsticc.fr/en/directory/bosser-anne-gwenn)
-<br>*JOKER@CLEF chair*
+<br>Professeure agrégée en informatique
+<br>Lab-STICC (CNRS UMR 6285), Responsable de l'équipe COMMEDIA
+<br>[Lien vers le profil](https://labsticc.fr/en/directory/bosser-anne-gwenn)
+<br>*Direction de JOKER@CLEF*
 
 * **Victor Manuel Palma Preciado (Instituto Politécnico Nacional, Mexico / Université de Bretagne Occidentale, Brest, France)**
-<br>PhD student in computer science
-<br>*JOKER@CLEF chair*
+<br>Doctorant en informatique
+<br>*Direction de JOKER@CLEF*
 
 * **Grigori Sidorov (Instituto Politécnico Nacional, Mexico)**
-<br>Full Professor
-<br>[Link to profile](https://www.cic.ipn.mx/~sidorov/)
-<br>*JOKER@CLEF chair*
+<br>Professeur titulaire
+<br>[Lien vers le profil](https://www.cic.ipn.mx/~sidorov/)
+<br>*Direction de JOKER@CLEF*
 
-## Other organizers: 
+## Autres organisateurs : 
 
 * **Fabio Regattin (Università degli Studi di Udine, Italy)**
-<br>Associate Professor in French to Italian Translation
-<br>Department of Language and Literature, Communication, Education and Society
-<br>[Link to profile](https://people.uniud.it/page/fabio.regattin)
+<br>Professeur agrégé en traduction du français vers l'italien
+<br>Département des langues et des littératures, de la communication, de l'éducation et de la société
+<br>[Lien vers le profil](https://people.uniud.it/page/fabio.regattin)
 <br>*Participant*
 
 * **Sílvia Araújo (University of Minho, Portugal)**
-<br>Associate Professor in Corpus Linguistics, Technologies Applied to Languages and Digital Humanities
-<br>Department of Humanities and Social Sciences
-<br>[Link to profile](http://cehum.ilch.uminho.pt/researchers/25)
+<br>Professeur agrégé en linguistique de corpus, technologies appliquées aux langues et humanités numériques
+<br>Département des sciences humaines et sociales
+<br>[Lien vers le profil](http://cehum.ilch.uminho.pt/researchers/25)
 <br>*Participant*
 
 * **Radia Hannachi (Université de Bretagne Sud, Lorient, France)**
-<br>French Linguistics and French as a Foreign Language Didactics Lecturer
-<br>HCTI, Faculty of Arts, Humanities and Social Sciences, “Département Ingénierie du Document”
+<br>Maître de conférences en linguistique française et didactique du français langue étrangère
+<br>HCTI, Faculté des arts, des lettres et des sciences sociales, « Département Ingénierie du Document »
 <br>*Participant*
 
 * **Élise Mathurin (Université de Bretagne Occidentale, Brest, France)**
-<br>English Linguistics Lecturer, in charge of the first-year students of the Technical Writing/Technical Translation master’s degree.
-<br>HCTI, UFR ALL SHS, Department of English
-<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Mathurin--Elise)
+<br>Chargé de cours en linguistique anglaise, responsable des étudiants de première année du master Rédaction technique/Traduction technique.
+<br>HCTI, UFR ALL SHS, Département d'anglais
+<br>[Lien vers le profil](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Mathurin--Elise)
 <br>*Participant*
 
 * **Mohamed Saki (Université de Bretagne Occidentale, Brest, France)**
-<br>English Linguistics Lecturer
-<br>HCTI, Department of Humanities and Social Sciences
-<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Saki--Mohamed)
+<br>Chargé de cours en linguistique anglaise
+<br>HCTI, Département des sciences humaines et sociales
+<br>[Lien vers le profil](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Saki--Mohamed)
 <br>*Participant*
 
 * **Benoît Jeanjean (Université de Bretagne Occidentale, Brest, France)**
-<br>Latin Professor
-<br>HCTI, Department of Humanities and Social Sciences
-<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Jeanjean__Benoit)
+<br>Professeur de latin
+<br>HCTI, Département des sciences humaines et sociales
+<br>[Lien vers le profil](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Jeanjean__Benoit)
 <br>*Participant*
 
 * **Gaëlle Le Corre (Université de Bretagne Occidentale, Brest, France)**
-<br>English Linguistics Lecturer
-<br>EA 4451 CRBC, UFR ALL SHS, Department of English
-<br>[Link to profile](https://www.univ-brest.fr/crbc/menu/Membres+du+laboratoire/Enseignants-chercheurs/Ga-lle-Le-Corre)
+<br>Chargé de cours en linguistique anglaise
+<br>EA 4451 CRBC, UFR ALL SHS, Département d'anglais
+<br>[Lien vers le profil](https://www.univ-brest.fr/crbc/menu/Membres+du+laboratoire/Enseignants-chercheurs/Ga-lle-Le-Corre)
 <br>*Participant*
 
 * **Nathalie Narvaez (Université de Bretagne Occidentale, Brest, France)**
-<br>English Linguistics Lecturer
-<br>HCTI, Department of Humanities and Social Sciences
-<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Membres_associes/Narvaez--Nathalie)
+<br>Chargé de cours en linguistique anglaise
+<br>HCTI, Département des sciences humaines et sociales
+<br>[Lien vers le profil](https://www.univ-brest.fr/hcti/menu/Membres/Membres_associes/Narvaez--Nathalie)
 <br>*Participant*
 
 
-## Partners from the SEA-EU universities: <img align="right" width="150" height="150" src="../img/sea-eu.png">
+## Partenaires des universités SEA-UE : <img align="right" width="150" height="150" src="../img/sea-eu.png">
 
 * **Leopoldo Gutierrez (University of Cadiz, Spain)**
-<br>Associate Professor
-<br>Media & Communications department, Faculty of Media & Knowledge Sciences
-<br>[Link to profile](blablabla)
-<br>*Partner university coordinator*
+<br>Professeur agrégé
+<br>Département des médias et de la communication, Faculté des médias et des sciences de la connaissance
+<br>[Lien vers le profil](blablabla)
+<br>*Coordinateur des universités partenaires*
 
 * **Khatima El Krirh (University of Cadiz, Spain)**
 <br>*Participant*
@@ -104,34 +104,34 @@
 
 
 * **Claudine Borg (University of Malta)**
-<br>Associate Professor
-<br>Translation, Terminology and Interpreting Studies Faculty of Arts
-<br>[Link to profile](https://www.um.edu.mt/profile/claudineborg)
-<br>*Partner university coordinator, specialist in translation*
+<br>Professeure agrégée
+<br>Études de traduction, de terminologie et d'interprétation Faculté des lettres
+<br>[LLien vers le profil](https://www.um.edu.mt/profile/claudineborg)
+<br>*Coordinatrice de l'université partenaire, spécialiste de la traduction*
 
 * **Ġorġ Mallia (University of Malta)**
-<br>Associate Professor
-<br>Media & Communications department, Faculty of Media & Knowledge Sciences
-<br>[Link to profile](https://www.um.edu.mt/profile/gorgmallia)
-<br>*Participant, specialist in humour*
+<br>Professeur agrégé
+<br>Département des médias et de la communication, Faculté des médias et des sciences de la connaissance
+<br>[Lien vers le profil](https://www.um.edu.mt/profile/gorgmallia)
+<br>*Participant, specialiste de l'humour*
 
 * **Monika Bokiniec (University of Gdansk)** 
-<br>Associate Professor
-<br>Department of Aesthetics and Philosophy of Culture, Faculty of Social Sciences
-<br>[Link to profile](https://ug.edu.pl/pracownik/413/monika_bokiniec)
-<br>*Partner university coordinator*
+<br>Professeure agrégée
+<br>Département d'esthétique et de philosophie de la culture, Faculté des sciences sociales
+<br>[Lien vers le profil](https://ug.edu.pl/pracownik/413/monika_bokiniec)
+<br>*Coordinatrice de l'université partenaire*
 
 * **Gordan Matas (University of Split)**
-<br>Associate Professor
-<br>Department of Language and English Literature
-<br>[Link to profile](https://www.ffst.unist.hr/gordan.matas)
-<br>*Partner university coordinator*
+<br>Professeur agrégé
+<br>Département des langues et de la littérature anglaise
+<br>[Lien vers le profil](https://www.ffst.unist.hr/gordan.matas)
+<br>*Coordinateur de l'université partenaire*
 
 * **Danica Škara (University of Split)**
-<br>Professor Emeritus
-<br>English department, Faculty of Philosophy
-<br>[Link to profile](https://www.researchgate.net/profile/Danica-Skara)
-<br>*Participant*
+<br>Professeure émérite
+<br>Département d'anglais, Faculté de philosophie
+<br>[Lien vers le profil](https://www.researchgate.net/profile/Danica-Skara)
+<br>*Participante*
 
 
 ## Maintenance du site web :
