@@ -8,7 +8,7 @@
 <br>
 
 <br>
-  <h1 align="center">Suivi de CLEF 2023 JOKER :</h1>
+  <h1 align="center">=CLEF 2023 JOKER :</h1>
   <h2 align="center">Analyse Automatique des Jeux de mots</h2> 
 
 ### Thème et objectifs
