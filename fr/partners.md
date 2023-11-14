@@ -6,21 +6,21 @@
 [Accueil](index) | [Tâches](https://www.joker-project.com/clef-2023/tasks) | [Programme CLEF](program) | [Publications](publications) | Partenaires | [Contest](contest) | [Contacts](contact) | [Outils](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project) 
 <br>
 
-## Chairs: 
+## Participants : 
 * **Liana Ermakova (Université de Bretagne Occidentale, Brest, France)**
-<br>Associate professor in computer science
+<br>Professeure agrégée en informatique
 <br>HCTI, Université de Bretagne Occidentale, Brest, France
-<br>[Link to profile](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Ermakova--Liana)
-<br>*Project Leader, General chair*
+<br>[Lien vers le profil](https://www.univ-brest.fr/hcti/menu/Membres/Enseignants-chercheurs/Ermakova--Liana)
+<br>*Directrice du projet, Présidence générale*
 
 * **Tristan Miller (Austrian Research Institute for Artificial Intelligence, Austria)**
-<br>Language and Interaction Technologies Group at OFAI
-<br>[Link to profile](https://logological.org/) 
+<br>Groupe des technologies du langage et de l'interaction à l'OFAI
+<br>[Lien vers le profil](https://logological.org/) 
 <br>*JOKER@CLEF chair*
 
 * **Adam Jatowt (University of Innsbruck, Austria)**
 <br>Full Professor at Department of Computer Science & Digital Science Center
-<br>[Link to profile](https://adammo12.github.io/adamjatowt/)
+<br>[Lien vers le profil](https://adammo12.github.io/adamjatowt/)
 <br>*JOKER@CLEF chair*
 
 * **Anne-Gwenn Bosser (ENIB, Brest, France)**
@@ -134,7 +134,7 @@
 <br>*Participant*
 
 
-## Website maintenance:
+## Maintenance du site web :
 * **Adèle Gigon**, Université de Bretagne Occidentale, Brest, France
 * **Axele Le Breton**, Université de Bretagne Occidentale, Brest, France
 * **Aurianne Damoy**, Université de Bretagne Occidentale, Brest, France
@@ -152,10 +152,10 @@
 </p>
 
 <p>
-<em>This project has received a government grant managed by the National Research Agency under the program "Investissements d'avenir" integrated into France 2030, with the Reference ANR-19-GURE-0001.</em>
+<em>Ce projet a reçu une subvention gouvernementale gérée par l'Agence Nationale de la Recherche dans le cadre du programme « Investissements d'avenir » intégré à France 2030, avec la référence ANR-19-GURE-0001.</em>
 </p>
 <p>
-<em>JOKER is supported by The Human Science Institute in Brittany (MSHB)</em>
+<em>JOKER est soutenu par l'Institut des Sciences Humaines de Bretagne (MSHB).</em>
 </p>
 <div align="center">
   <a href="https://www.mshb.fr"><img src="../img/mshb.jpg" height="120"></a>
