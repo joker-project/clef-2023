@@ -3,7 +3,7 @@
   <img src="../img/joker.png" width="120" height="142">
 </p>
 
-[Home](index) | [Tasks](https://www.joker-project.com/clef-2023/tasks) | [CLEF program](program) | [Publications](publications) | Partners | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project) 
+[Accueil](index) | [Tâches](https://www.joker-project.com/clef-2023/tasks) | [Programme CLEF](program) | [Publications](publications) | Partenaires | [Contest](contest) | [Contacts](contact) | [Outils](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project) 
 <br>
 
 ## Chairs: 
