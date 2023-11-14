@@ -8,23 +8,23 @@
 <br>
 
 <br>
-  <h1 align="center">CLEF 2023 JOKER Track:</h1>
-  <h2 align="center">Automatic Wordplay Analysis</h2> 
+  <h1 align="center">Suivi de CLEF 2023 JOKER :</h1>
+  <h2 align="center">Analyse Automatique des Jeux de mots</h2> 
 
-### Topic and goals
-Humour remains one of the most difficult aspects of intercultural communication. Understanding humour often involves understanding implicit cultural references and/or double meanings, especially in the case of wordplay, which raises not only the question of its (un)translatability, but also how to detect and classify instances of this complex phenomenon. The goal of the JOKER track is to bring together linguists, translators, and computer scientists to create reusable test collections for benchmarking and to explore new evaluation metrics in order to foster work on automatic methods for wordplay interpretation, generation, and translation. 
+### Thème et objectifs
+L'humour reste l'un des aspects les plus difficiles de la communication interculturelle. Comprendre l'humour implique souvent de comprendre des références culturelles implicites et/ou des doubles sens, en particulier dans le cas des jeux de mots, ce qui soulève non seulement la question de sa traduisibilité même, mais aussi celle de la détection et de la classification des instances de ce phénomène complexe. L'objectif du projet JOKER est de réunir des linguistes, des traducteurs et des informaticiens afin de créer des collections de tests réutilisables pour l'évaluation comparative et d'explorer de nouvelles mesures d'évaluation afin d'encourager les travaux sur les méthodes automatiques d'interprétation, de génération et de traduction des jeux de mots. 
 
-### Relevance to CLEF and the significance for the field
-JOKER lies at the intersection of multiple fields, including natural language processing, machine translation (MT), and human-computer interaction, as well as linguistics, philosophy, and psychology. In the 2022 edition, we focused on machine translation and we constructed a unique English–French parallel corpus of wordplay with 5K parallel one-liner puns and 1.5K parallel instances of wordplay in named entities. We also saw runs based on our corpus for an unshared task for pun generation in order to improve interlocutor engagement in dialog systems. Recent developments in machine learning and artificial intelligence have greatly improved the quality of MT, but puns are often held to be untranslatable, particularly by statistical or neural MT [1], [2], which cannot robustly deal with texts that deliberately disregard or subvert linguistic conventions [3].
+### Pertinence pour CLEF et importance pour le domaine
+JOKER se situe à l'intersection de plusieurs domaines, notamment le traitement du langage naturel, la traduction automatique (TA) et l'interaction homme-machine, ainsi que la linguistique, la philosophie et la psychologie. Dans l'édition 2022, nous nous sommes concentrés sur la traduction automatique et nous avons construit un corpus parallèle anglais-français unique de jeux de mots avec 5 000 jeux de mots parallèles d'une ligne et 1 500 instances parallèles de jeux de mots dans des entités nommées. Nous avons également observé des exécutions basées sur notre corpus pour une tâche non partagée de génération de jeux de mots afin d'améliorer l'engagement de l'interlocuteur dans les systèmes de dialogue. Les récents développements en matière d'apprentissage automatique et d'intelligence artificielle ont considérablement amélioré la qualité de la TA, mais les jeux de mots sont souvent considérés comme intraduisibles, en particulier par la TA statistique ou neuronale [1], [2], qui ne peut pas traiter de manière efficace les textes qui ignorent ou subvertissent délibérément les conventions linguistiques [3].
 <br>
-A few monolingual humour corpora do exist, including the datasets created for shared tasks of the International Workshop on Semantic Evaluation (SemEval): #HashtagWars: Learning a Sense of Humor [4], Detection and Interpretation of English Puns [3], Assessing Humor in Edited News Headlines [5], and Hackathon: Detecting and Rating Humor and Offense [6].  Mihalcea et al. [7] collected 16,000 humorous sentences and an equal number of negative samples from news titles, proverbs, the British National Corpus, and the Open Mind Common-Sense dataset. Another dataset contains 2,400 puns and non-puns from news sources, Yahoo!Answers, and proverbs [8], [9]. Most datasets are in English, with some notable exceptions in Italian [10], Russian [11], [12], and Spanish [13]. To the best of our knowledge, the corpus we constructed within the frame of the JOKER Task 3 [14], [15] is the first one for wordplay detection in French.
+Il existe quelques corpus monolingues sur l'humour, notamment les ensembles de données créés pour les tâches partagées de l'atelier international sur l'évaluation sémantique (SemEval) : #HashtagWars: Learning a Sense of Humor [4], Detection and Interpretation of English Puns [3], Assessing Humor in Edited News Headlines [5], et Hackathon : Detecting and Rating Humor and Offense [6].  Mihalcea et al [7] ont recueilli 16 000 phrases humoristiques et un nombre égal d'échantillons négatifs à partir de titres de journaux, de proverbes, du British National Corpus et de l'ensemble de données Open Mind Common-Sense. Un autre ensemble de données contient 2 400 jeux de mots et non jeux de mots provenant de sources d'information, de Yahoo!Answers et de proverbes [8], [9]. La plupart des ensembles de données sont en anglais, avec quelques exceptions notables en italien [10], en russe [11], [12] et en espagnol [13]. À notre connaissance, le corpus que nous avons construit dans le cadre de la tâche JOKER 3 [14], [15] est le premier à détecter les jeux de mots en français.
 
 
-### Usage scenarios and domains of application
-Wordplay is a recurrent feature of literature, advertising, movies, and social conversations.  It is therefore vitally important that natural language processing applications operating on these discourse types be capable of recognising and appropriately dealing with instances of wordplay [14]. As we mentioned before, preserving wordplay in translation might be crucial to understanding the humorous aspect of a sense. Thus, machine translation of wordplay is especially crucial in subtitling. As we demonstrated previously [15], machine translation (including popular engines like DeepL<a href="#note1" id="note1ref"><sup>1</sup></a>) is successful in only 13% of cases. Although it is impossible to resolve such a complex problem at once, we identified three main steps that could bring us closer to the automation of wordplay analysis—namely, wordplay detection, interpretation, and translation. Wordplay detection and interpretation are also important in dialogue systems in order to allow a virtual agent to react properly on the cue of the interlocutor. 
+### Scénarios d'utilisation et domaines d'application
+Le jeu de mots est un élément récurrent de la littérature, de la publicité, des films et des conversations sociales.  Il est donc essentiel que les applications de traitement du langage naturel opérant sur ces types de discours soient capables de reconnaître et de traiter de manière appropriée les cas de jeux de mots [14]. Comme nous l'avons mentionné précédemment, la préservation des jeux de mots dans la traduction peut être cruciale pour comprendre l'aspect humoristique d'un signifiant. La traduction automatique des jeux de mots est donc particulièrement importante pour le sous-titrage. Comme nous l'avons démontré précédemment [15], la traduction automatique (y compris les moteurs populaires tels que DeepL<a href="#note1" id="note1ref"><sup>1</sup></a>) ne réussit que dans 13 % des cas. Bien qu'il soit impossible de résoudre un problème aussi complexe en une seule fois, nous avons identifié trois étapes principales qui pourraient nous rapprocher de l'automatisation de l'analyse des jeux de mots, à savoir la détection des jeux de mots, leur interprétation et leur traduction. La détection et l'interprétation des jeux de mots sont également importantes dans les systèmes de dialogue afin de permettre à un agent virtuel de réagir correctement aux indications de l'interlocuteur. 
 <br>
 
-### References
+### Références
 [1]	H. Ardi, M. A. Hafizh, I. Rezqi, and R. Tuzzikriah, “Can Machine Translations Translate Humorous Texts?”, Humanus, 2022, doi: 10.24036/humanus.v21i1.115698.<br>
 [2]	F. Regattin, "Traduction automatique et jeux de mots : l’incursion (ludique) d’un inculte". Brest, Université de Bretagne occidentale, mars 2021. [URL](https://motsmachines.github.io/2021/en/submissions/Mots-Machines-2021_paper_5.pdf)<br>
 [3]	T. Miller, "The Punster’s Amanuensis: The Proper Place of Humans and Machines in the Translation of Wordplay", in Proceedings of the Second Workshop on Human-Informed Translation and Interpreting Technology (HiT-IT 2019), sept. 2019, p. 57‑64. doi: 10.26615/issn.2683-0078.2019_007.<br>
@@ -42,8 +42,8 @@ Wordplay is a recurrent feature of literature, advertising, movies, and social c
 [15]	L. Ermakova et al., "Overview of the CLEF 2022 JOKER Task 3: Pun Translation from English into French", in Proceedings of the Working Notes of CLEF 2022: Conference and Labs of the Evaluation Forum, 2022.<br><br><br>
 <a id="note1" href="#note1ref"><sup>1</sup></a>: *DeepL translator. Accessed on 17th July 2022. [URL](https://www.deepl.com/translator)*
 
-## How to Cite
-If you extend or use this work, please cite the [paper](https://link.springer.com/chapter/10.1007/978-3-031-13643-6_27) where it was introduced:
+## Comment citer
+Si vous souhaitez approfondir ou utiliser ce travail, veuillez citer le [document](https://link.springer.com/chapter/10.1007/978-3-031-13643-6_27) dans lequel il est présenté :
 ```
 Liana Ermakova, Tristan Miller, Fabio Regattin, Anne-Gwenn Bosser, Claudine Borg, Élise Mathurin, Gaëlle Le Corre, 
 Sílvia Araújo, Radia Hannachi, Julien Boccou, Albin Digue, Aurianne Damoy & Benoît Jeanjean, 2022. 
@@ -56,10 +56,10 @@ In International Conference of the Cross-Language Evaluation Forum for European 
 
 
 <p>
-<em>This project has received a government grant managed by the National Research Agency under the program "Investissements d'avenir" integrated into France 2030, with the Reference ANR-19-GURE-0001.</em>
+<em>Ce projet a reçu une subvention gouvernementale gérée par l'Agence Nationale de la Recherche dans le cadre du programme « Investissements d'avenir » intégré à France 2030, avec la référence ANR-19-GURE-0001.</em>
 </p>
 <p>
-<em>JOKER is supported by The Human Science Institute in Brittany (MSHB)</em>
+<em>JOKER est soutenu par l'Institut des Sciences Humaines de Bretagne (MSHB).</em>
 </p>
 <div align="center">
   <a href="https://www.mshb.fr"><img src="../img/mshb.jpg" height="120"></a>
