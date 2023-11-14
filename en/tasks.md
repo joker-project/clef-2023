@@ -1,6 +1,6 @@
 # JOKER
 <p align="center">
-  <img src="./img/joker.png" width="120" height="142">
+  <img src="../img/joker.png" width="120" height="142">
 </p>
 
 [Home](index) | Tasks | [CLEF program](program) | [Publications](publications) | [Partners](partners) | [Contest](contest) | [Contact Us](contact) | [Tools](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)
@@ -31,9 +31,9 @@ In the edition, we propose three shared tasks:
 <em>JOKER is supported by The Human Science Institute in Brittany (MSHB)</em>
 </p>
 <div align="center">
-  <a href="https://www.mshb.fr"><img src="img/mshb.jpg" height="120"></a>
-  <a href="https://sea-eu.org/?lang=fr"><img src="img/sea-eu.png" height="120"></a>
-  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="img/Logotype France 2030.jpg" height="120"></a>
+  <a href="https://www.mshb.fr"><img src="../img/mshb.jpg" height="120"></a>
+  <a href="https://sea-eu.org/?lang=fr"><img src="../img/sea-eu.png" height="120"></a>
+  <a href="https://www.gouvernement.fr/le-programme-d-investissements-d-avenir"><img src="../img/Logotype France 2030.jpg" height="120"></a>
 </div>
 <br />
 <div align="center">
