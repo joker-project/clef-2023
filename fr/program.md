@@ -5,8 +5,8 @@
 
 [Accueil](index) | [Tâches](https://www.joker-project.com/clef-2023/tasks) | Programme CLEF | [Publications](publications) | [Partenaires](partners) | [Concours](contest) | [Contacts](contact) | [Outils](tools) | [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)
 <br>
-<h1 align="center">CLEF 2023 JOKER Track:</h1>
-<h2 align="center">Automatic Wordplay Analysis</h2> 
+<h1 align="center">CLEF 2023 JOKER :</h1>
+<h2 align="center">Analyse Automatique des Jeux de mots</h2> 
 
 * [CLEF registration](https://clef2023.clef-initiative.eu/index.php?page=Pages/conferenceRegistration.html)
 * [CLEF program](https://clef2023.clef-initiative.eu/index.php?page=Pages/programme.html)
@@ -14,21 +14,21 @@
 * [CLEF Working Notes](https://ceur-ws.org/Vol-3497/)
 
 ------------------------------------------------------------
-## Wednesday 20th September 
+## Mercredi 20 Septembre 
 
-JOKER Sessions takes place in **ROOM 3** except for the lab overviews.
+Les sessions JOKER se déroulent dans la **SALLE 3**, sauf pour les présentations des laboratoires.
 
 
-### Lab Overviews (ROOM 1)
-* **11:20 - 13:00** Lab overviews: CheckThat!, **JokeR**, EXIST, Touché, iDPP
+### Présentation des laboratoires (SALLE 1)
+* **11:20 - 13:00** Présentation des laboratoires : CheckThat!, **JokeR**, EXIST, Touché, iDPP
 			
-### CONFERENCE Session 5: Natural Language Processing (Room 1)
+### CONFÉRENCE Session 5 : Traitement du langage naturel (Salle 1)
 
-* **16.00 - 17.30** Humour Translation with Transformers, Farhan Dhanani, Muhammad Rafi and Muhammad Atif Tahir (Best of the Labs 2022).
+* **16:00 - 17:30** Humour Translation with Transformers, Farhan Dhanani, Muhammad Rafi and Muhammad Atif Tahir (Best of the Labs 2022).
 
-## Thursday 21st September
+## Jeudi 21 Septembre
 
-### JOKER Session 1 (ROOM 3)
+### JOKER Session 1 (SALLE 3)
 
 * **09:30 - 10:30** Invited talk by **Jussi Karlgren** on _"How to evaluate delight and diversion?"_ ([Slides](slides/JOKER23_keynote_Karlgren.pdf)): 
 
