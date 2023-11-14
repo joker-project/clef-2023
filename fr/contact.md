@@ -6,7 +6,7 @@
 [Accueil](index) | [Tâches](https://www.joker-project.com/clef-2023/tasks) | [Programme CLEF](program) | [Publications](publications) | [Partenaires](partners) | [Concours](contest) | Contacts | [Outils](tools) |  [CLEF 2022](https://www.joker-project.com/clef-2022/EN/project)  
 <br>
 
-## Contactez-nous via:
+## Contactez-nous via :
 <br>
 
 **Twitter :** [https://twitter.com/joker_research](https://twitter.com/joker_research)
